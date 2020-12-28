@@ -6,6 +6,7 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 # Experience & Education
 ## Postdoctoral researcher
 Marie curie
+![wowe](https://github.com/diogomribeiro/diogomribeiro.github.io/blob/main/images/IMG_2993.JPG "Amazing photo")
 ## PhD
 Aix-Marseille
 # Publications
