@@ -1,3 +1,8 @@
 theme: jekyll-theme-architect
 title: Diogo Ribeiro
 email: diogo.am.ribeiro@gmail.com
+header_pages:
+  - about.md
+social_links:
+    twitter: jekyllrb
+    github: jekyll
