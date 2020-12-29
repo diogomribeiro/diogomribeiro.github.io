@@ -9,19 +9,24 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 ## Postdoctoral researcher
 - Marie curie
 ## PhD (2015-2018)
-- Bioinformatics and Genomics, Aix-Marseille University, France
-- Thesis title...
-- Supervisors..
-- Practicals teaching..
+- Bioinformatics and Genomics, [Aix-Marseille University](https://www.univ-amu.fr/en), France. Carried out at [TAGC](https://tagc.univ-amu.fr/), INSERM, France.
+- Thesis title: Discovery of the role of protein-RNA interactions in protein multifunctionality and cellular complexity
+- Supervisors: Christine Brun (TAGC, Inserm, Marseille, France), Gian Gaetano Tartaglia (CRG, Barcelona, Spain)
+- Keywords: protein-RNA interactions, network biology, protein multifunctionality, 3’UTR and lncRNA function, database development
+- Teaching: Bioinformatics (70h practicals, 3rd year Bachelor students), Informatics for biology (58h practicals, 1st year Bachelor students)
 ## Bioinformatician (2014-2015)
-- Wellcome Sanger Institute, Cambridge, UK
+- [Wellcome Sanger Institute](https://www.sanger.ac.uk/), Cambridge, UK
+- Supervisors: Matthew Berriman, Avril Coghlan (Parasite Genomics group)
+- Keywords: comparative genomics, de novo genome assembly, gene discovery, gene function annotation, SNP calling, parasitism
 ## Bioinformatician (2012-2013)
 - [Instituto Gulbenkian de Ciência (IGC)](https://gulbenkian.pt/ciencia/), Portugal
 - Supervisor: Alekos Athanasiadis (Protein-Nucleic Acid Interactions group)
 - Keywords: RNA editing, machine learning, genetic algorithms, evolution
 ## Master of Science (2010-2012)
-- Master in Bioinformatics and Computational Biology, University of Lisbon, Portugal
-- Master thesis title: Studies on the Influence of A to I RNA Editing on Protein Evolution, carried out at IGC, Portugal; Supervisor: Alekos Athanasiadis
+- [Master in Bioinformatics and Computational Biology](https://fenix.ciencias.ulisboa.pt/degrees/bioinformatica-e-biologia-computacional-564500436615187), University of Lisbon, Portugal
+- Master thesis title: 'Studies on the Influence of A to I RNA Editing on Protein Evolution, carried out at IGC, Portugal'
+## Bachelor in Biology (2006-2010)
+- [Universidade Lusófona](https://www.ulusofona.pt/), Lisbon, Portugal. 
 # Publications
 - Google scholar
 - one
