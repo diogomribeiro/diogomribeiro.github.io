@@ -1,5 +1,6 @@
 theme: jekyll-theme-architect
 title: Diogo Ribeiro
+description: Diogo Ribeiro's webpage
 email: diogo.am.ribeiro@gmail.com
 header_pages:
   - about.md
