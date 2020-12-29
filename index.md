@@ -16,11 +16,12 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 ## Bioinformatician (2014-2015)
 - Wellcome Sanger Institute, Cambridge, UK
 ## Bioinformatician (2012-2013)
-- Instituto Gulbenkian de Ciência, Portugal
-- ...
-## Master (2010-2012)
-- Bioinformatics, University of Lisbon, Portugal
-- Thesis...
+- [Instituto Gulbenkian de Ciência (IGC)](https://gulbenkian.pt/ciencia/), Portugal
+- Supervisor: Alekos Athanasiadis (Protein-Nucleic Acid Interactions group)
+- Keywords: RNA editing, machine learning, genetic algorithms, evolution
+## Master of Science (2010-2012)
+- Master in Bioinformatics and Computational Biology, University of Lisbon, Portugal
+- Master thesis title: Studies on the Influence of A to I RNA Editing on Protein Evolution, carried out at IGC, Portugal; Supervisor: Alekos Athanasiadis
 # Publications
 - Google scholar
 - one
