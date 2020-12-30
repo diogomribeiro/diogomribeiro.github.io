@@ -56,6 +56,7 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 In this work, I ..
 - **Ribeiro DM**, Briere G, Bely B, Spinelli L, Brun C. [MoonDB 2.0: an updated database of extreme multifunctional and moonlighting proteins.](https://academic.oup.com/nar/article/47/D1/D398/5146199) *Nucleic Acids Research*, 2018; Database link: http://moondb.hb.univ-amu.fr/
 Developed a scientific database: 
+- **Ribeiro DM**, Zanzoni A, (...), Tartaglia GG, Brun C. [Protein complex scaffolding predicted as a prevalent function of long non-coding RNAs.](https://academic.oup.com/nar/article/46/2/917/4641912) *Nucleic Acids Research*, 2018; 46(2):917-928
 
 ## Co-author publications
 - one
