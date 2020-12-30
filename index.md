@@ -1,6 +1,10 @@
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
 <p></p>
 # About me 👋
-<img alt="Diogo Ribeiro" src="images/photo.png" width="200" height="200" class="center"> 
+<img alt="Diogo Ribeiro" src="images/photo.png" width="200" height="200" class="center">
 
 I'm a scientist, currently working as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
 I'm leading a [research project funded by the European Commission](https://cordis.europa.eu/project/id/885998/) centered on understanding why genes close to each other are often found co-expressed and what are the molecular and disease-state repercussions of this co-expression.
@@ -10,7 +14,7 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 - Genetics & Evolution
 - Functional genomics
 - High-throughput technologies 
-- Machine learning & Scientific programming
+- Machine learning & scientific programming
 
 ***
 
@@ -48,10 +52,10 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 # Publications 📜
 - [Google scholar](https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra)
 ## First-author publications
-- **Ribeiro DM**, Prod’homme A, Teixeira A, Zanzoni A, Brun C. [The role of 3′UTR-protein complexes in the regulation of protein multifunctionality and subcellular localization](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa462/5850311?searchresult=1). *Nucleic Acids Research*, 2020
-
+- **Ribeiro DM**, Prod’homme A, Teixeira A, Zanzoni A, Brun C. [The role of 3′UTR-protein complexes in the regulation of protein multifunctionality and subcellular localization.](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa462/5850311?searchresult=1) *Nucleic Acids Research*, 2020
 In this work, I ..
-- two
+- **Ribeiro DM**, Briere G, Bely B, Spinelli L, Brun C. [MoonDB 2.0: an updated database of extreme multifunctional and moonlighting proteins.](https://academic.oup.com/nar/article/47/D1/D398/5146199) *Nucleic Acids Research*, 2018; Database link: http://moondb.hb.univ-amu.fr/
+Developed a scientific database: 
 
 ## Co-author publications
 - one
