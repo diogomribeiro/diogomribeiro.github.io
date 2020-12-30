@@ -75,4 +75,16 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
     </div>
     <div id="map"></div>
 	
+
 ***
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    © 2020. All rights reserved.
+  </p>
+  
+</footer>
+
+</div>
