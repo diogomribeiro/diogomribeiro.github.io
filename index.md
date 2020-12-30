@@ -1,4 +1,3 @@
-***
 # About me
 ![photo](images/photo.png "Diogo Ribeiro")
 I'm a scientist, currently working as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
@@ -16,13 +15,13 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 ![wowe](images/IMG_2993.JPG "Amazing photo")
 # Experience & Education
 ## Postdoctoral researcher (2019-present)
-- Department of Computational Biology, University of Lausanne, Switzerland
-- [Marie-Curie Postdoctoral Research Fellow](https://cordis.europa.eu/project/id/885998), leading a project involving studying the effect of genetic variants in gene expression, complex traits and diseases
-- Supervisor: Olivier Delaneau ([Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/))
-- Keywords: human genetics, genetic variations, gene expression, eQTL analysis, GWAS
-- Teaching: Python practicals to bachelor students
-## PhD (2015-2018)
-- PhD with specialisation in Bioinformatics and Genomics, [Aix-Marseille University](https://www.univ-amu.fr/en), France. Carried out at [TAGC](https://tagc.univ-amu.fr/), INSERM, France.
+- **Where:** Department of Computational Biology, University of Lausanne, Switzerland
+- **Project:** [Marie-Curie Postdoctoral Research Fellow](https://cordis.europa.eu/project/id/885998), leading a project involving studying the effect of genetic variants in gene expression, complex traits and diseases
+- **Supervisor:** Olivier Delaneau ([Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/))
+- **Keywords:** human genetics, genetic variations, gene expression, eQTL analysis, GWAS
+- **Teaching:** Python practicals to bachelor students
+## PhD in Bioinformatics (2015-2018)
+- **Where:** [Aix-Marseille University](https://www.univ-amu.fr/en), France. Carried out at the [TAGC](https://tagc.univ-amu.fr/) laboratory, [INSERM](https://www.inserm.fr/en), France.
 - Thesis title: *Discovery of the role of protein-RNA interactions in protein multifunctionality and cellular complexity*
 - Supervisors: Christine Brun (TAGC, Inserm, Marseille, France), Gian Gaetano Tartaglia (CRG, Barcelona, Spain)
 - Keywords: protein-RNA interactions, network biology, protein multifunctionality, 3’UTR and lncRNA function, database development
