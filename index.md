@@ -19,14 +19,20 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 - **Project:** [Marie-Curie Postdoctoral Research Fellow](https://cordis.europa.eu/project/id/885998), leading a project involving studying the effect of genetic variants in gene expression, complex traits and diseases
 - **Supervisor:** Olivier Delaneau ([Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/))
 - **Keywords:** human genetics, genetic variations, gene expression, eQTL analysis, GWAS
+- **Master student co-supervision:** 
+	- Yami Arizmendi: *Molecular features impacting local gene co-expression* (first year)
 - **Teaching:** Python practicals to bachelor students
 ## PhD in Bioinformatics (2015-2018)
 - **Where:** [Aix-Marseille University](https://www.univ-amu.fr/en), France. Carried out at the [TAGC](https://tagc.univ-amu.fr/) laboratory, [INSERM](https://www.inserm.fr/en), France.
-- Thesis title: *Discovery of the role of protein-RNA interactions in protein multifunctionality and cellular complexity*
-- Supervisors: Christine Brun (TAGC, Inserm, Marseille, France), Gian Gaetano Tartaglia (CRG, Barcelona, Spain)
-- Keywords: protein-RNA interactions, network biology, protein multifunctionality, 3’UTR and lncRNA function, database development
-- Master student thesis (first year) co-supervision: Adrien Teixeira: *Predicting 3’UTRs scaffolding protein complexes*, Paul De Boissier: *Large-scale inference of small ORF interactions*
-- Teaching: Bioinformatics (70h practicals, 3rd year Bachelor students), Informatics for biology (58h practicals, 1st year Bachelor students)
+- **Thesis title:** Discovery of the role of protein-RNA interactions in protein multifunctionality and cellular complexity
+- **Supervisors:** 
+	- Christine Brun (TAGC, Marseille, France) 
+	- Gian Gaetano Tartaglia (CRG, Barcelona, Spain)
+- **Keywords:** protein-RNA interactions, network biology, protein multifunctionality, 3’UTR and lncRNA function, database development
+- **Master student co-supervision:** 
+	- Adrien Teixeira *Predicting 3’UTRs scaffolding protein complexes* (first year)
+	- Paul De Boissier *Large-scale inference of small ORF interactions* (first year)
+- **Teaching:** Bioinformatics (70h practicals, 3rd year Bachelor students), Informatics for biology (58h practicals, 1st year Bachelor students)
 ## Bioinformatician (2014-2015)
 - [Wellcome Sanger Institute](https://www.sanger.ac.uk/), Cambridge, UK
 - Supervisors: Matthew Berriman, Avril Coghlan (Parasite Genomics group)
