@@ -42,7 +42,7 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 ## Bachelor in Biology (2006-2010)
 - **Where:** [Universidade Lusófona](https://www.ulusofona.pt/), Lisbon, Portugal. 
 ***
-# Publications :space_invader:
+# Publications 📜
 - [Google scholar](https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra)
 ## First-author publications
 - one
@@ -53,11 +53,6 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 - two
 ***
 # Contact 🌍
-:love_letter:
-<li>
-        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email"><a href="mailto:diogo.am.ribeiro@gmail.com">diogo.am.ribeiro@gmail.com</a></span>
-</li>
 - 🏢 Genopode, UNIL-Sorge, Lausanne, Vaud, 1015
 - ✉️ <diogo.am.ribeiro@gmail.com>
 - [Twitter](https://twitter.com/Diogo_M_Ribeiro)
