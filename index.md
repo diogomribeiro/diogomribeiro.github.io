@@ -1,7 +1,3 @@
-<head>
-<link rel="icon" href="favicon.ico" type="image/png" />
-</head>
-
 <p></p>
 # About me 👋
 <img alt="Diogo Ribeiro" src="images/photo.png" width="200" height="200" class="center">
