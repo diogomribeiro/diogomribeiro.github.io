@@ -1,4 +1,4 @@
-# About me :wave:
+# About me 👋
 <img alt="Diogo Ribeiro" title="My Optional Title Text" src="images/photo.png">
 
 I'm a scientist, currently working as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
@@ -66,14 +66,11 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 - [LinkedIN](https://www.linkedin.com/in/diogo-ribeiro-783b4526/)	
 
 ***
-
 <div class="container">
   <footer class="site-footer">
   
   <p class="powered-by">
     © 2020. All rights reserved.
   </p>
-  
-</footer>
-
+  </footer>
 </div>
