@@ -60,11 +60,12 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 5. **Ribeiro DM**, Coghlan A, Harsha B, Berriman M. (2018) [Identification of lineage-specific gene family expansions in a database of gene families](https://protocolexchange.researchsquare.com/article/nprot-6681/v1). *Protocol Exchange* (not peer-reviewed)
 💬 *This is a protocol publication (not a research article) describing several metrics developed to identify gene family expansions in a lineage of species within a larger set of species. This protocol was used for the [50 Helminth Genomes Project](https://www.sanger.ac.uk/collaboration/50hgp/) at the Sanger Institute.*
 ## Co-authored publications
-- Zanzoni A, Spinelli L, **Ribeiro DM**, Tartaglia GG, Brun C. (2019) [Post-transcriptional regulatory patterns revealed by protein-RNA interactions](https://www.nature.com/articles/s41598-019-40939-2). *Scientific Reports*.
-- International Helminth Genomes Consortium. (2018) [Comparative genomics of the major parasitic worms](https://www.nature.com/articles/s41588-018-0262-1). *Nature Genetics*.
-- Protasio AV, Dongen S, Collins J, Quintais L, **Ribeiro DM**, (...), Berriman m. (2017) [MiR-277/4989 regulate transcriptional landscape during juvenile to adult transition in the parasitic helminth Schistosoma mansoni.](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005559) *PLoS Negl Trop Dis*.
-- Hunt VL, Tsai IJ, (...), **Ribeiro DM**, (...), Berriman M. (2016) [The genomic basis of parasitism in the Strongyloides clade of nematodes](https://www.nature.com/articles/ng.3495). *Nature Genetics*.
-- Bennett HM, Mok HP, (...), **Ribeiro DM**, (...), Berriman M. (2014) [The genome of the sparganosis tapeworm Spirometra erinaceieuropaei isolated from the biopsy of a migrating brain lesion](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0510-3). *Genome Biology*.
+1. Zanzoni A, **Ribeiro DM**, Brun C. (2019) [Understanding protein multifunctionality: from short linear motifs to cellular functions.](https://link.springer.com/article/10.1007/s00018-019-03273-4) *Cellular and Molecular Life Sciences*.
+2. Zanzoni A, Spinelli L, **Ribeiro DM**, Tartaglia GG, Brun C. (2019) [Post-transcriptional regulatory patterns revealed by protein-RNA interactions](https://www.nature.com/articles/s41598-019-40939-2). *Scientific Reports*.
+3. International Helminth Genomes Consortium. (2018) [Comparative genomics of the major parasitic worms](https://www.nature.com/articles/s41588-018-0262-1). *Nature Genetics*.
+4. Protasio AV, Dongen S, Collins J, Quintais L, **Ribeiro DM**, (...), Berriman m. (2017) [MiR-277/4989 regulate transcriptional landscape during juvenile to adult transition in the parasitic helminth Schistosoma mansoni.](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005559) *PLoS Negl Trop Dis*.
+5. Hunt VL, Tsai IJ, (...), **Ribeiro DM**, (...), Berriman M. (2016) [The genomic basis of parasitism in the Strongyloides clade of nematodes](https://www.nature.com/articles/ng.3495). *Nature Genetics*.
+6. Bennett HM, Mok HP, (...), **Ribeiro DM**, (...), Berriman M. (2014) [The genome of the sparganosis tapeworm Spirometra erinaceieuropaei isolated from the biopsy of a migrating brain lesion](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0510-3). *Genome Biology*.
 
 ***
 # Contact 🌍
