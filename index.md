@@ -53,7 +53,7 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 - [Google scholar](https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra)
 ## First-author publications
 - **Ribeiro DM**, Rubinacci S, Ramisch A, Hofmeister RJ, Dermitzakis ET, Delaneau O. [The molecular basis, genetic control and pleiotropic effects of local gene co-expression.](https://www.biorxiv.org/content/10.1101/2020.12.11.421396v1) *BioRxiv* (not peer-reviewed), 2020
-... We developed a database containing the main results of this study, [LoCOP DB](https://glcoex.unil.ch/)
+💭 This work describes a novel approach to identify neighbouring genes that are co-expressed with each other across 49 human tissues, by levaraging RNA-seq datasets performed on hundreds of individuals (i.e. GTEx). As gene co-expression can stem from the genes having common regulatory elements, we identified thousands of genetic variants that are near to the co-expressed genes and may jointly affect their expression. Interestingly, these variants often overlapped enhancers and associated with multiple human traits and diseases. The main results of this study are available on [LoCOP DB](https://glcoex.unil.ch/)
 - **Ribeiro DM**, Prod’homme A, Teixeira A, Zanzoni A, Brun C. [The role of 3′UTR-protein complexes in the regulation of protein multifunctionality and subcellular localization.](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa462/5850311?searchresult=1) *Nucleic Acids Research*, 2020
 In this work, I ..
 - **Ribeiro DM**, Briere G, Bely B, Spinelli L, Brun C. [MoonDB 2.0: an updated database of extreme multifunctional and moonlighting proteins.](https://academic.oup.com/nar/article/47/D1/D398/5146199) *Nucleic Acids Research*, 2019;
