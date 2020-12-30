@@ -52,11 +52,13 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 # Publications 📜
 - [Google scholar](https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra)
 ## First-author publications
+- **Ribeiro DM**, Rubinacci S, Ramisch A, Hofmeister RJ, Dermitzakis ET, Delaneau O. [The molecular basis, genetic control and pleiotropic effects of local gene co-expression.](https://www.biorxiv.org/content/10.1101/2020.12.11.421396v1) *BioRxiv* (not peer-reviewed), 2020
+... We developed a database containing the main results of this study, [LoCOP DB](https://glcoex.unil.ch/)
 - **Ribeiro DM**, Prod’homme A, Teixeira A, Zanzoni A, Brun C. [The role of 3′UTR-protein complexes in the regulation of protein multifunctionality and subcellular localization.](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa462/5850311?searchresult=1) *Nucleic Acids Research*, 2020
 In this work, I ..
-- **Ribeiro DM**, Briere G, Bely B, Spinelli L, Brun C. [MoonDB 2.0: an updated database of extreme multifunctional and moonlighting proteins.](https://academic.oup.com/nar/article/47/D1/D398/5146199) *Nucleic Acids Research*, 2018; Database link: http://moondb.hb.univ-amu.fr/
-Developed a scientific database: 
-- **Ribeiro DM**, Zanzoni A, (...), Tartaglia GG, Brun C. [Protein complex scaffolding predicted as a prevalent function of long non-coding RNAs.](https://academic.oup.com/nar/article/46/2/917/4641912) *Nucleic Acids Research*, 2018; 46(2):917-928
+- **Ribeiro DM**, Briere G, Bely B, Spinelli L, Brun C. [MoonDB 2.0: an updated database of extreme multifunctional and moonlighting proteins.](https://academic.oup.com/nar/article/47/D1/D398/5146199) *Nucleic Acids Research*, 2019;
+In this work I developed a scientific database from scratch, [MoonDB 2.0](http://moondb.hb.univ-amu.fr/), which is a reiteration of a previous MoonDB database.
+- **Ribeiro DM**, Zanzoni A, (...), Tartaglia GG, Brun C. [Protein complex scaffolding predicted as a prevalent function of long non-coding RNAs.](https://academic.oup.com/nar/article/46/2/917/4641912) *Nucleic Acids Research*, 2018;
 
 ## Co-author publications
 - one
