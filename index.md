@@ -1,6 +1,6 @@
 Diogo Ribeiro
 # About me 👋
-<img alt="Diogo Ribeiro" title="My Optional Title Text" src="images/photo.png">
+<img alt="Diogo Ribeiro" title="My Optional Title Text" src="images/photo.png" width="300" height="300">
 
 I'm a scientist, currently working as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
 I'm leading a [research project funded by the European Commission](https://cordis.europa.eu/project/id/885998/) centered on understanding why genes close to each other are often found co-expressed and what are the molecular and disease-state repercussions of this co-expression.
