@@ -68,9 +68,9 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 
 ✉️ <diogo.am.ribeiro@gmail.com>
 
-[Twitter](https://twitter.com/Diogo_M_Ribeiro)
+🐤 [Twitter](https://twitter.com/Diogo_M_Ribeiro)
 
-[LinkedIN](https://www.linkedin.com/in/diogo-ribeiro-783b4526/)	
+🔗 [LinkedIN](https://www.linkedin.com/in/diogo-ribeiro-783b4526/)	
 
 ***
 <div class="container">
