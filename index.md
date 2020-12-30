@@ -40,7 +40,8 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 - **Where:** [Master in Bioinformatics and Computational Biology](https://fenix.ciencias.ulisboa.pt/degrees/bioinformatica-e-biologia-computacional-564500436615187), University of Lisbon, Portugal
 - **Thesis title:** *Studies on the Influence of A to I RNA Editing on Protein Evolution*, carried out at IGC, Portugal
 ## Bachelor in Biology (2006-2010)
-- **Where:** [Universidade Lusófona](https://www.ulusofona.pt/), Lisbon, Portugal. 
+- **Where:** [Universidade Lusófona](https://www.ulusofona.pt/), Lisbon, Portugal
+
 ***
 # Publications 📜
 - [Google scholar](https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra)
@@ -51,12 +52,17 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 ## Co-author publications
 - one
 - two
+
 ***
 # Contact 🌍
-- 🏢 Genopode, UNIL-Sorge, Lausanne, Vaud, 1015
-- ✉️ <diogo.am.ribeiro@gmail.com>
-- [Twitter](https://twitter.com/Diogo_M_Ribeiro)
-- [LinkedIN](https://www.linkedin.com/in/diogo-ribeiro-783b4526/)	
+
+🏢 Genopode, UNIL-Sorge, Lausanne, Vaud, 1015
+
+✉️ <diogo.am.ribeiro@gmail.com>
+
+[Twitter](https://twitter.com/Diogo_M_Ribeiro)
+
+[LinkedIN](https://www.linkedin.com/in/diogo-ribeiro-783b4526/)	
 
 ***
 <div class="container">
