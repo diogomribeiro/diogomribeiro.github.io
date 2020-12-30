@@ -35,11 +35,11 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 - **Supervisors:** Matthew Berriman, Avril Coghlan (Parasite Genomics group)
 - **Keywords:** comparative genomics, de novo genome assembly, gene discovery, gene function annotation, SNP calling, parasitism
 ## Bioinformatician (2012-2013)
-- **Where:**[Instituto Gulbenkian de Ciência (IGC)](https://gulbenkian.pt/ciencia/), Portugal
+- **Where:**[Instituto Gulbenkian de Ciência (IGC)](https://gulbenkian.pt/ciencia/), Oeiras, Portugal
 - **Supervisor:** Alekos Athanasiadis (Protein-Nucleic Acid Interactions group)
 - **Keywords:** RNA editing, machine learning, genetic algorithms, evolution
-## Master of Science (2010-2012)
-- **Where:** [Master in Bioinformatics and Computational Biology](https://fenix.ciencias.ulisboa.pt/degrees/bioinformatica-e-biologia-computacional-564500436615187), University of Lisbon, Portugal
+## Master in Bioinformatics (2010-2012)
+- **Where:** [University of Lisbon](https://www.ulisboa.pt/en), Portugal
 - **Thesis title:** *Studies on the Influence of A to I RNA Editing on Protein Evolution*, carried out at IGC, Portugal
 ## Bachelor in Biology (2006-2010)
 - **Where:** [Universidade Lusófona](https://www.ulusofona.pt/), Lisbon, Portugal
