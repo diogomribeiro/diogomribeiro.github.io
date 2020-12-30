@@ -1,3 +1,4 @@
+Diogo Ribeiro
 # About me 👋
 <img alt="Diogo Ribeiro" title="My Optional Title Text" src="images/photo.png">
 
