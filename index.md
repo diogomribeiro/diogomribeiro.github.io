@@ -63,18 +63,7 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 - Work address: Genopode, UNIL-Sorge, Lausanne, Vaud, 1015
 - Email address: <diogo.am.ribeiro@gmail.com>
 - [Twitter](https://twitter.com/Diogo_M_Ribeiro)
-- [LinkedIN](https://www.linkedin.com/in/diogo-ribeiro-783b4526/)
-
-<div class="d-none">
-      <input id="map-provider" value="2">
-      <input id="map-lat" value="46.519760">
-      <input id="map-lng" value="6.574077">
-      <input id="map-dir" value="Genopode, UNIL-Sorge, Ecublens, Vaud, 1015">
-      <input id="map-zoom" value="15">
-      <input id="map-api-key" value="">
-    </div>
-    <div id="map"></div>
-	
+- [LinkedIN](https://www.linkedin.com/in/diogo-ribeiro-783b4526/)	
 
 ***
 
