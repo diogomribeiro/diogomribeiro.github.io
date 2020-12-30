@@ -46,7 +46,8 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 
 ***
 # Publications 📜
-<p style="font-size:200%;">See publications on [Google scholar](https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra)</p>
+<p style="font-size:150%;"> <a href="https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra">See publications on Google scholar</a></p>
+
 ## First-author publications
 - **Ribeiro DM**, Rubinacci S, Ramisch A, Hofmeister RJ, Dermitzakis ET, Delaneau O. (2020) [The molecular basis, genetic control and pleiotropic effects of local gene co-expression.](https://www.biorxiv.org/content/10.1101/2020.12.11.421396v1) *BioRxiv* (not peer-reviewed), 2020
 💬 *This work describes a novel approach to identify neighbouring genes that are co-expressed with each other across 49 human tissues, by levaraging RNA-seq datasets performed on hundreds of individuals (i.e. GTEx). As gene co-expression can stem from the genes having common regulatory elements, we identified thousands of genetic variants that are near to the co-expressed genes and may jointly affect their expression. Interestingly, these variants often overlapped enhancers and associated with multiple human traits and diseases. The main results of this study are available on [LoCOP DB](https://glcoex.unil.ch/).*
