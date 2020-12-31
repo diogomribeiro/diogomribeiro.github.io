@@ -54,10 +54,10 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Where:** [University of Lisbon](https://www.ulisboa.pt/en), Portugal
 - **Thesis title:** *Studies on the Influence of A to I RNA Editing on Protein Evolution*, carried out at IGC, Portugal
 
+<img alt="Caparica Portugal" src="images/caparica.png" class="center">
+
 ## Bachelor in Biology (2006-2010)
 - **Where:** [Universidade Lusófona](https://www.ulusofona.pt/), Lisbon, Portugal
-
-<img alt="Caparica Portugal" src="images/caparica.png" class="center">
 
 ***
 # Publications 📜
