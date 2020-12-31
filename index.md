@@ -52,13 +52,16 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Where:** [Wellcome Sanger Institute](https://www.sanger.ac.uk/), Cambridge, UK
 - **Supervisors:** Matthew Berriman, Avril Coghlan (Parasite Genomics group)
 - **Keywords:** comparative genomics, de novo genome assembly, gene discovery, gene function annotation, SNP calling, parasitism
+
 ## Bioinformatician (2012-2013)
 - **Where:**[Instituto Gulbenkian de Ciência (IGC)](https://gulbenkian.pt/ciencia/), Oeiras, Portugal
 - **Supervisor:** Alekos Athanasiadis (Protein-Nucleic Acid Interactions group)
 - **Keywords:** RNA editing, machine learning, genetic algorithms, evolution
+
 ## Master in Bioinformatics (2010-2012)
 - **Where:** [University of Lisbon](https://www.ulisboa.pt/en), Portugal
 - **Thesis title:** *Studies on the Influence of A to I RNA Editing on Protein Evolution*, carried out at IGC, Portugal
+
 ## Bachelor in Biology (2006-2010)
 - **Where:** [Universidade Lusófona](https://www.ulusofona.pt/), Lisbon, Portugal
 
