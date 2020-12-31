@@ -77,10 +77,9 @@ header h2 {
 /* DR */
 a.myphoto {
   width: 450px;
-  height: 0px;
+  height: 200px;
 }
 
-/* DR */
 header a.myphoto {
   position: absolute;
   top: 0;
@@ -414,6 +413,23 @@ footer a:hover {
   }
   header h2 {
     font-size: 24px;
+  }
+  header a.button {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 1;
+    color: #2879d0;
+    text-align: center;
+    background-color: #9ddcff;
+    background-image: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
   }
 
    header a.myphoto {
