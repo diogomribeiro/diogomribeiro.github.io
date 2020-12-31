@@ -25,8 +25,8 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Supervisor:** Olivier Delaneau ([Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/))
 - **Keywords:** human genetics, genetic variations, gene expression, eQTL analysis, GWAS
 - **Master student co-supervision:** Yami Arizmendi: *Molecular features impacting local gene co-expression* (first year)
-- **Teaching:** Python practicals to Bachelor students
-<img alt="Lavaux Switzerland" src="images/lavaux.png" width="500" height="350">
+- **Teaching:** Python practicals to Bachelor students  
+<img alt="Lavaux Switzerland" src="images/lavaux.png" width="600" height="350">
 ## PhD in Bioinformatics (2015-2018)
 - **Where:** [Aix-Marseille University](https://www.univ-amu.fr/en), France. Carried out at the [TAGC](https://tagc.univ-amu.fr/) laboratory, [INSERM](https://www.inserm.fr/en), France.
 - **Thesis title:** Discovery of the role of protein-RNA interactions in protein multifunctionality and cellular complexity
