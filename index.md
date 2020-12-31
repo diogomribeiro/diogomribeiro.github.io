@@ -1,5 +1,6 @@
 <p></p>
-# About me 👋  <img src="images/photo.png" alt="Diogo Ribeiro" width="130" height="130">
+# About me 👋
+<img src="images/photo.png" alt="Diogo Ribeiro" width="150" height="150">
 I'm a scientist, currently working as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
 I'm leading a [research project funded by the European Commission](https://cordis.europa.eu/project/id/885998/) centered on understanding why neighbouring genes are often found co-expressed and what are the molecular and disease-state repercussions of this co-expression.
 In 2018, I obtained a PhD in Bioinformatics and Genomics from the Aix-Marseille University (France) while working at the [TAGC](https://tagc.univ-amu.fr/) unit, under the supervision of Dr. Christine Brun. Prior to my PhD, I worked as bioinformatician in renowned research institutes ([Sanger Institute](https://www.sanger.ac.uk/), UK & [Instituto Gulbenkian de Ciência](https://gulbenkian.pt/ciencia/), Portugal).  
