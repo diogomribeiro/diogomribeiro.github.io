@@ -3,16 +3,16 @@
 
 <div class="alignRow">
 <div class="imageColumn">
-<img src="https://i.picsum.photos/id/811/400/400.jpg" alt="Snow" style="width:100%">
+<img src="images/photo.png" alt="Snow" style="width:100%">
 </div>
 <div class="imageColumn">
-<img src="https://i.picsum.photos/id/871/400/400.jpg" alt="Forest" style="width:100%">
+<img src="images/photo.png" alt="Forest" style="width:100%">
 </div>
 <div class="imageColumn">
-<img src="https://i.picsum.photos/id/471/400/400.jpg" alt="Mountains" style="width:100%">
+<img src="images/photo.png" alt="Mountains" style="width:100%">
 </div>
 <div class="imageColumn">
-<img src="https://i.picsum.photos/id/271/400/400.jpg" alt="Snow" style="width:100%">
+<img src="images/photo.png" alt="Snow" style="width:100%">
 </div>
 </div>>
 
@@ -72,6 +72,8 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Where:**[Instituto Gulbenkian de Ciência (IGC)](https://gulbenkian.pt/ciencia/), Oeiras, Portugal
 - **Supervisor:** Alekos Athanasiadis (Protein-Nucleic Acid Interactions group)
 - **Keywords:** RNA editing, machine learning, genetic algorithms, evolution
+
+<img alt="Guincho Portugal" src="images/guincho.png" class="center">
 
 ## Master in Bioinformatics (2010-2012)
 - **Where:** [University of Lisbon](https://www.ulisboa.pt/en), Portugal
