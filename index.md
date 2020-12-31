@@ -49,7 +49,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Supervisor:** Alekos Athanasiadis (Protein-Nucleic Acid Interactions group)
 - **Keywords:** RNA editing, machine learning, genetic algorithms, evolution
 
-<img alt="Guincho Portugal" src="images/guincho.png" class="center"  width="380" height="340">
+<img alt="Guincho Portugal" src="images/guincho.png" class="center"  width="360" height="330">
 
 ## Master in Bioinformatics (2010-2012)
 - **Where:** [University of Lisbon](https://www.ulisboa.pt/en), Portugal
