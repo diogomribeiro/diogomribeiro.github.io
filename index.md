@@ -26,14 +26,15 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Keywords:** human genetics, genetic variations, gene expression, eQTL analysis, GWAS
 - **Master student co-supervision:** Yami Arizmendi: *Molecular features impacting local gene co-expression* (first year)
 - **Teaching:** Python practicals to Bachelor students  
-<img alt="Lavaux Switzerland" src="images/lavaux.png" width="600" height="350">
+<img alt="Lavaux Switzerland" src="images/lavaux.png" width="550" height="350">
 ## PhD in Bioinformatics (2015-2018)
 - **Where:** [Aix-Marseille University](https://www.univ-amu.fr/en), France. Carried out at the [TAGC](https://tagc.univ-amu.fr/) laboratory, [INSERM](https://www.inserm.fr/en), France.
 - **Thesis title:** Discovery of the role of protein-RNA interactions in protein multifunctionality and cellular complexity
 - **Supervisors:** Christine Brun (TAGC, Marseille, France), Gian Gaetano Tartaglia (CRG, Barcelona, Spain)
 - **Keywords:** protein-RNA interactions, network biology, protein multifunctionality, 3’UTR and lncRNA function, database development
 - **Master student co-supervision:** Adrien Teixeira (first year): *Predicting 3’UTRs scaffolding protein complexes*, Paul De Boissier (first year): *Large-scale inference of small ORF interactions* 
-- **Teaching:** Bioinformatics (70h practicals, 3rd year Bachelor students), Informatics for biology (58h practicals, 1st year Bachelor students)
+- **Teaching:** Bioinformatics (70h practicals, 3rd year Bachelor students), Informatics for biology (58h practicals, 1st year Bachelor students)  
+<img alt="Cassis France" src="images/cassis.png" width="550" height="380">
 ## Bioinformatician (2014-2015)
 - **Where:** [Wellcome Sanger Institute](https://www.sanger.ac.uk/), Cambridge, UK
 - **Supervisors:** Matthew Berriman, Avril Coghlan (Parasite Genomics group)
