@@ -1,17 +1,20 @@
 <p></p>
 # About me 👋 
 
-<div class="image123">
-    <div class="imgContainer">
-        <img src="images/photo.png" height="200" width="200"/>
-    </div>
-    <div class="imgContainer">
-        <img class="middle-img" src="images/lavaux.png"/ height="200" width="200"/>
-    </div>
-    <div class="imgContainer">
-        <img src="images/cassis.png"/ height="200" width="200"/>
-    </div>
+<div class="alignRow">
+<div class="imageColumn">
+<img src="https://i.picsum.photos/id/811/400/400.jpg" alt="Snow" style="width:100%">
 </div>
+<div class="imageColumn">
+<img src="https://i.picsum.photos/id/871/400/400.jpg" alt="Forest" style="width:100%">
+</div>
+<div class="imageColumn">
+<img src="https://i.picsum.photos/id/471/400/400.jpg" alt="Mountains" style="width:100%">
+</div>
+<div class="imageColumn">
+<img src="https://i.picsum.photos/id/271/400/400.jpg" alt="Snow" style="width:100%">
+</div>
+</div>>
 
 <div class="row">
   <div class="column">

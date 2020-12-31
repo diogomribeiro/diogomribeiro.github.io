@@ -323,29 +323,11 @@ footer a:hover {
 }
 
 /* DR */
-.left {
-  display: block;
-  margin-left: 0;
+.imageColumn {
+   float: left;
+   width: 25%;
+   padding: 10px;
 }
-
-/* DR */
-.column {
-  width: 50%;
-  padding: 5px;
-}
-
-/* DR */
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.imgContainer{
-    float:left;
-}
-
 /* MISC */
 .clearfix:after {
   display: block;
