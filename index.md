@@ -4,15 +4,12 @@
 <div class="image123">
     <div class="imgContainer">
         <img src="images/photo.png" height="200" width="200"/>
-        <p>This is image 1</p>
     </div>
     <div class="imgContainer">
         <img class="middle-img" src="images/lavaux.png"/ height="200" width="200"/>
-        <p>This is image 2</p>
     </div>
     <div class="imgContainer">
-         <img src="images/cassis.png"/ height="200" width="200"/>
-        <p>This is image 3</p>
+        <img src="images/cassis.png"/ height="200" width="200"/>
     </div>
 </div>
 
