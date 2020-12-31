@@ -34,7 +34,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Keywords:** protein-RNA interactions, network biology, protein multifunctionality, 3’UTR and lncRNA function, database development
 - **Master student co-supervision:** Adrien Teixeira (first year): *Predicting 3’UTRs scaffolding protein complexes*, Paul De Boissier (first year): *Large-scale inference of small ORF interactions* 
 - **Teaching:** Bioinformatics (70h practicals, 3rd year Bachelor students), Informatics for biology (58h practicals, 1st year Bachelor students)  
-<img alt="Cassis France" src="images/cassis.png" width="550" height="380">
+<img alt="Cassis France" src="images/cassis.png" width="550" height="350" class="left" style="vertical-align:middle">
 ## Bioinformatician (2014-2015)
 - **Where:** [Wellcome Sanger Institute](https://www.sanger.ac.uk/), Cambridge, UK
 - **Supervisors:** Matthew Berriman, Avril Coghlan (Parasite Genomics group)
