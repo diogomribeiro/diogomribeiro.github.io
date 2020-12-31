@@ -1,7 +1,7 @@
 <p></p>
 # About me 👋 
 
-<<div class="alignRow">
+<div class="alignRow">
 	<div class="imageColumn">
 		<img src="images/photo.png" alt="Snow" style="width:100%">
 	</div>
@@ -14,7 +14,7 @@
 
 		In my free time you will find me immersed in nature, exploring all the possible trails, only stopping for some bird watching. Currently, I'm enjoy hiking in the lovely Swiss Alps. When the weather take me indoors, I enjoy playing guitar and tennis.
 	</div>
-</div>>
+</div>
 
 ## Interests 💭
 My interests are broad and mixed between the understanding of fundamental biology and leveraging computational and technological advances to answer biological questions.
