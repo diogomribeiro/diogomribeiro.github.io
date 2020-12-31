@@ -34,7 +34,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Supervisors:** Christine Brun (TAGC, Marseille, France), Gian Gaetano Tartaglia (CRG, Barcelona, Spain)
 - **Keywords:** protein-RNA interactions, network biology, protein multifunctionality, 3’UTR and lncRNA function, database development
 - **Master student co-supervision:** Adrien Teixeira (first year): *Predicting 3’UTRs scaffolding protein complexes*, Paul De Boissier (first year): *Large-scale inference of small ORF interactions* 
-- **Teaching:** Bioinformatics (70h practicals, 3rd year Bachelor students), Informatics for biology (58h practicals, 1st year Bachelor students)  
+- **Teaching:** Bioinformatics (3rd year Bachelor students), Informatics for biology (1st year Bachelor students)  
 
 <img alt="Cassis France" src="images/cassis.png" class="center">
 
