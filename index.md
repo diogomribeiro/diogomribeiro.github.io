@@ -75,7 +75,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 ## Bachelor in Biology (2006-2010)
 - **Where:** [Universidade Lusófona](https://www.ulusofona.pt/), Lisbon, Portugal
 
-<img alt="Guincho Portugal" src="images/guincho.png" class="center">
+<img alt="Caparica Portugal" src="images/caparica.png" class="center">
 
 ***
 # Publications 📜
