@@ -3,13 +3,15 @@
 <img alt="Diogo Ribeiro" src="images/photo.png" width="200" height="200" class="center">
 
 I'm a scientist, currently working as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
-I'm leading a [research project funded by the European Commission](https://cordis.europa.eu/project/id/885998/) centered on understanding why genes close to each other are often found co-expressed and what are the molecular and disease-state repercussions of this co-expression.
-In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of Aix-Marseille (France) while working at the [TAGC](https://tagc.univ-amu.fr/) unit, an INSERM laboratory, under the supervision of Dr. Christine Brun. During my PhD, I gained expertise in network biology, functional genomics and analysing big data, as well as technical skills such as programming and creating scientific databases (e.g. [MoonDB](http://moondb.hb.univ-amu.fr/)).
+I'm leading a [research project funded by the European Commission](https://cordis.europa.eu/project/id/885998/) centered on understanding why neighbouring genes are often found co-expressed and what are the molecular and disease-state repercussions of this co-expression.
+In 2018, I obtained a PhD in Bioinformatics and Genomics from the Aix-Marseille University (France) while working at the [TAGC](https://tagc.univ-amu.fr/) unit, under the supervision of Dr. Christine Brun. Prior to my PhD I worked as bioinformatician in renowned research institutes ([Sanger Institute](https://www.sanger.ac.uk/), UK & [Instituto Gulbenkian de Ciência](https://gulbenkian.pt/ciencia/), Portugal). 
+I have  functional genomics and analysing big data, as well as technical skills such as programming and creating scientific databases (e.g. [MoonDB](http://moondb.hb.univ-amu.fr/)).
 
 ## Interests 💭
+My interests are broad and mixed between the understanding of fundamental biology and leveraging computational and technological advances to answer biological questions.
 - Genetics & Evolution
-- Functional genomics
-- High-throughput technologies 
+- Functional genomics & RNA biology
+- High-throughput technologies (e.g. sequencing, multi-omics)
 - Machine learning & scientific programming
 
 ***
