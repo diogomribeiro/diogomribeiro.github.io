@@ -86,6 +86,12 @@ a.myphoto {
   color: #fff;
 }
 
+header a.myphoto {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 a.button {
   width: 134px;
   height: 58px;
