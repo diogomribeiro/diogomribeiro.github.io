@@ -6,12 +6,13 @@
 I'm a scientist, currently working as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
 I'm leading a [research project funded by the European Commission](https://cordis.europa.eu/project/id/885998/) centered on understanding why neighbouring genes are often found co-expressed and what are the molecular and disease-state repercussions of this co-expression.
 In 2018, I obtained a PhD in Bioinformatics and Genomics from the Aix-Marseille University (France) while working at the [TAGC](https://tagc.univ-amu.fr/) unit, under the supervision of Dr. Christine Brun. Prior to my PhD, I worked as bioinformatician in renowned research institutes ([Sanger Institute](https://www.sanger.ac.uk/), UK & [Instituto Gulbenkian de Ciência](https://gulbenkian.pt/ciencia/), Portugal).  
-I have solid experience in functional genomics and analysing big data, as well as technical skills such as programming and creating scientific databases (e.g. [MoonDB](http://moondb.hb.univ-amu.fr/)).  
-As a main author of several peer-reviewed publications, I have good experience in writing scientific articles, as well as research grants. I have worked both independently and as part of a team, including supervising students.  
+
+I have solid experience in functional genomics and analysing big data, as well as technical skills such as programming and creating scientific databases (e.g. [MoonDB](http://moondb.hb.univ-amu.fr/)). As a main author of several peer-reviewed publications, I have good experience in writing scientific articles, as well as research grants. I have worked both independently and as part of a team, including supervising students.  
+
 In my free time you will find me immersed in nature, exploring all the possible trails, only stopping for some bird watching. Currently, I'm enjoy hiking in the lovely Swiss Alps. When the weather take me indoors, I enjoy playing guitar and tennis.
 
 ## Interests 💭
-My interests are broad and mixed between the understanding of fundamental biology and leveraging computational and technological advances to answer biological questions
+My interests are broad and mixed between the understanding of fundamental biology and leveraging computational and technological advances to answer biological questions.
 - Genetics & Evolution
 - Functional genomics & RNA biology
 - High-throughput technologies (e.g. sequencing, multi-omics)
@@ -38,7 +39,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Master student co-supervision:** Adrien Teixeira (first year): *Predicting 3’UTRs scaffolding protein complexes*, Paul De Boissier (first year): *Large-scale inference of small ORF interactions* 
 - **Teaching:** Bioinformatics (70h practicals, 3rd year Bachelor students), Informatics for biology (58h practicals, 1st year Bachelor students)  
 
-<img alt="Cassis France" src="images/cassis.png" width="560" height="350" class="left" style="vertical-align:middle">
+<img alt="Cassis France" src="images/cassis.png" class="center">
 
 ## Bioinformatician (2014-2015)
 - **Where:** [Wellcome Sanger Institute](https://www.sanger.ac.uk/), Cambridge, UK
