@@ -1,6 +1,21 @@
 <p></p>
 # About me 👋 
 
+<div class="image123">
+    <div class="imgContainer">
+        <img src="/images/tv.gif" height="200" width="200"/>
+        <p>This is image 1</p>
+    </div>
+    <div class="imgContainer">
+        <img class="middle-img" src="/images/tv.gif"/ height="200" width="200"/>
+        <p>This is image 2</p>
+    </div>
+    <div class="imgContainer">
+         <img src="/images/tv.gif"/ height="200" width="200"/>
+        <p>This is image 3</p>
+    </div>
+</div>
+
 <div class="row">
   <div class="column">
 	<img alt="Diogo Ribeiro" src="images/photo.png" width="150" height="150">
