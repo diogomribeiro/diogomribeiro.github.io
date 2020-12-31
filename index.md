@@ -26,7 +26,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Master student co-supervision:** Yami Arizmendi: *Molecular features impacting local gene co-expression* (first year)
 - **Teaching:** Python practicals to Bachelor students  
 
-<img alt="Lavaux Switzerland" src="images/lavaux.png" width="580" height="350" class="center">
+<img alt="Lavaux Switzerland" src="images/lavaux.png" width="800" height="350" class="center">
 
 ## PhD in Bioinformatics (2015-2018)
 - **Where:** [Aix-Marseille University](https://www.univ-amu.fr/en), France. Carried out at the [TAGC](https://tagc.univ-amu.fr/) laboratory, [INSERM](https://www.inserm.fr/en), France.
