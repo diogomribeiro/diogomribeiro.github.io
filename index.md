@@ -49,7 +49,7 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 <p style="font-size:150%;"> <a href="https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra">See publications on Google scholar</a></p>
 
 ## First-author publications
-1. **Ribeiro DM**, Rubinacci S, Ramisch A, Hofmeister RJ, Dermitzakis ET, Delaneau O. (2020) [The molecular basis, genetic control and pleiotropic effects of local gene co-expression.](https://www.biorxiv.org/content/10.1101/2020.12.11.421396v1) <ins>BioRxiv</ins> (not peer-reviewed).
+1. **Ribeiro DM**, Rubinacci S, Ramisch A, Hofmeister RJ, Dermitzakis ET, Delaneau O. (2020) [The molecular basis, genetic control and pleiotropic effects of local gene co-expression.](https://www.biorxiv.org/content/10.1101/2020.12.11.421396v1) <ins>BioRxiv</ins> (not peer-reviewed).  
 💬 *This work describes a novel approach to identify neighbouring genes that are co-expressed with each other across 49 human tissues, by levaraging RNA-seq datasets performed on hundreds of individuals (i.e. GTEx). As gene co-expression can stem from the genes having common regulatory elements, we identified thousands of genetic variants that are near to the co-expressed genes and may jointly affect their expression. Interestingly, these variants often overlapped enhancers and associated with multiple human traits and diseases. The main results of this study are available on [LoCOP DB](https://glcoex.unil.ch/).*
 1. **Ribeiro DM**, Prod’homme A, Teixeira A, Zanzoni A, Brun C. (2020) [The role of 3′UTR-protein complexes in the regulation of protein multifunctionality and subcellular localization.](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa462/5850311?searchresult=1) <ins>Nucleic Acids Research</ins>.
 💬 *This was the final publication stemming from my PhD work. In a very innovative approach, we combined protein-3'UTR and protein-protein interactions into a joint network and predicted the effect of 3'UTRs in affecting the protein cellular localization. This was based in a novel finding that during protein translation, 3'UTRs may facilitate the formation of protein complexes which affect the cellular localization of the nascent protein. For the first time, we predicted that this phenomenon may be common, particularly for proteins which perform multiple unrelated cellular functions (e.g. moonlighting proteins).*
@@ -70,7 +70,7 @@ In 2018, I obtained a PhD in Bioinformatics and Genomics from the University of 
 ***
 # Contact 🌍
 
-🏢 Genopode, UNIL-Sorge, Lausanne, Vaud, 1015
+🏢 Department of Computational Biology, Genopode, UNIL-Sorge, 1015 Lausanne, Switzerland
 
 ✉️ <diogo.am.ribeiro@gmail.com>
 
