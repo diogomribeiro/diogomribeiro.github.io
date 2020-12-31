@@ -9,7 +9,7 @@ As a main author of several peer-reviewed publications, I have good experience i
 In my free time you will find me immersed in nature, exploring all the possible trails, only stopping for some bird watching. Currently, I'm enjoy hiking in the lovely Swiss Alps. When the weather take me indoors, I enjoy playing guitar and tennis.
 
 ## Interests 💭
-My interests are broad and mixed between the understanding of fundamental biology and leveraging computational and technological advances to answer biological questions.
+My interests are broad and mixed between the understanding of fundamental biology and leveraging computational and technological advances to answer biological questions
 - Genetics & Evolution
 - Functional genomics & RNA biology
 - High-throughput technologies (e.g. sequencing, multi-omics)
@@ -26,7 +26,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Master student co-supervision:** Yami Arizmendi: *Molecular features impacting local gene co-expression* (first year)
 - **Teaching:** Python practicals to Bachelor students  
 
-<img alt="Lavaux Switzerland" src="images/lavaux.png" width="800" height="350" class="center">
+<img alt="Lavaux Switzerland" src="images/lavaux.png" class="center">
 
 ## PhD in Bioinformatics (2015-2018)
 - **Where:** [Aix-Marseille University](https://www.univ-amu.fr/en), France. Carried out at the [TAGC](https://tagc.univ-amu.fr/) laboratory, [INSERM](https://www.inserm.fr/en), France.
