@@ -19,7 +19,6 @@ My interests are broad and mixed between the understanding of fundamental biolog
 ***
 
 # Experience & Education 🎓
-<img alt="Lavaux Switzerland" src="images/lavaux.png" width="500" height="350">
 ## Postdoctoral researcher (2019-present)
 - **Where:** [Department of Computational Biology](https://www.unil.ch/dbc/en/home.html), University of Lausanne, Switzerland
 - **Project:** [Marie-Curie Postdoctoral Research Fellow](https://cordis.europa.eu/project/id/885998), leading a project on studying the effect of genetic variants in gene expression, complex traits and diseases
@@ -27,6 +26,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Keywords:** human genetics, genetic variations, gene expression, eQTL analysis, GWAS
 - **Master student co-supervision:** Yami Arizmendi: *Molecular features impacting local gene co-expression* (first year)
 - **Teaching:** Python practicals to Bachelor students
+<img alt="Lavaux Switzerland" src="images/lavaux.png" width="500" height="350">
 ## PhD in Bioinformatics (2015-2018)
 - **Where:** [Aix-Marseille University](https://www.univ-amu.fr/en), France. Carried out at the [TAGC](https://tagc.univ-amu.fr/) laboratory, [INSERM](https://www.inserm.fr/en), France.
 - **Thesis title:** Discovery of the role of protein-RNA interactions in protein multifunctionality and cellular complexity
