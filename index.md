@@ -3,15 +3,15 @@
 
 <div class="image123">
     <div class="imgContainer">
-        <img src="/images/tv.gif" height="200" width="200"/>
+        <img src="images/photo.png" height="200" width="200"/>
         <p>This is image 1</p>
     </div>
     <div class="imgContainer">
-        <img class="middle-img" src="/images/tv.gif"/ height="200" width="200"/>
+        <img class="middle-img" src="images/lavaux.png"/ height="200" width="200"/>
         <p>This is image 2</p>
     </div>
     <div class="imgContainer">
-         <img src="/images/tv.gif"/ height="200" width="200"/>
+         <img src="images/cassis.png"/ height="200" width="200"/>
         <p>This is image 3</p>
     </div>
 </div>
