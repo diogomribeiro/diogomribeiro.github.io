@@ -1,5 +1,5 @@
 <p></p>
-# About me 👋 <img alt="Diogo Ribeiro" src="images/photo.png" width="200" height="200">
+# About me 👋 <img alt="Diogo Ribeiro" src="images/photo.png" width="100" height="100" style="vertical-align:bottom">
 
 I'm a scientist, currently working as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
 I'm leading a [research project funded by the European Commission](https://cordis.europa.eu/project/id/885998/) centered on understanding why neighbouring genes are often found co-expressed and what are the molecular and disease-state repercussions of this co-expression.
