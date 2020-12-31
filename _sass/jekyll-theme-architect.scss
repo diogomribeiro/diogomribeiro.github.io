@@ -8,7 +8,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
-  text-align: justify;
+  text-align: justify; // DR modified
   color: #666;
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
 }
@@ -67,7 +67,7 @@ header h2 {
 
 #main-content {
   float: center;
-  width: 1000px;
+  width: 900px; // DR modified
 }
 
 #main-content img {
