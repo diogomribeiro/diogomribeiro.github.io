@@ -2,17 +2,13 @@
 @import "rouge-github";
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 
-/* DR */
-.page__content {
-  text-align: justify;
-}
-
 /* LAYOUT STYLES */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
+  text-align: justify;
   color: #666;
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
 }
