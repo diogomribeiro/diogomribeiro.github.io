@@ -297,7 +297,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12052092);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12854644);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -320,7 +320,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12035932);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12856868);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -338,7 +338,7 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 gdjs.Level3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition0IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11917756);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12859012);
 }
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -937,7 +937,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12072188);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12890316);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -1024,7 +1024,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12080052);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12900628);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
