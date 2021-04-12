@@ -297,7 +297,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12685428);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12915956);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -320,7 +320,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12631188);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12918180);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -338,7 +338,7 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 gdjs.Level3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition0IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12618188);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12920324);
 }
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -754,7 +754,7 @@ gdjs.copyArray(runtimeScene.getObjects("Vies"), gdjs.Level3Code.GDViesObjects1);
 
 gdjs.Level3Code.condition0IsTrue_0.val = false;
 {
-gdjs.Level3Code.condition0IsTrue_0.val = !(gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene));
+gdjs.Level3Code.condition0IsTrue_0.val = !(gdjs.evtTools.systemInfo.isMobile());
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("ArrowButtonsBg"), gdjs.Level3Code.GDArrowButtonsBgObjects2);
 gdjs.copyArray(runtimeScene.getObjects("BottomButton"), gdjs.Level3Code.GDBottomButtonObjects2);
@@ -937,7 +937,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12634436);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12951628);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -1024,7 +1024,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12427924);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12961500);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {

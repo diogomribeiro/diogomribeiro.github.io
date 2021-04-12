@@ -55,7 +55,7 @@ gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElaps
 }if ( gdjs.MainMenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MainMenuCode.conditionTrue_1 = gdjs.MainMenuCode.condition1IsTrue_0;
-gdjs.MainMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12415476);
+gdjs.MainMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12547084);
 }
 }}
 if (gdjs.MainMenuCode.condition1IsTrue_0.val) {
