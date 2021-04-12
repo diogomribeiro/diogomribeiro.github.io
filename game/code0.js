@@ -24,6 +24,10 @@ gdjs.MainMenuCode.conditionTrue_0 = {val:false};
 gdjs.MainMenuCode.condition0IsTrue_0 = {val:false};
 gdjs.MainMenuCode.condition1IsTrue_0 = {val:false};
 gdjs.MainMenuCode.condition2IsTrue_0 = {val:false};
+gdjs.MainMenuCode.conditionTrue_1 = {val:false};
+gdjs.MainMenuCode.condition0IsTrue_1 = {val:false};
+gdjs.MainMenuCode.condition1IsTrue_1 = {val:false};
+gdjs.MainMenuCode.condition2IsTrue_1 = {val:false};
 
 
 gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDButtonStartObjects1Objects = Hashtable.newFrom({"ButtonStart": gdjs.MainMenuCode.GDButtonStartObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDButtonStartObjects1Objects = Hashtable.newFrom({"ButtonStart": gdjs.MainMenuCode.GDButtonStartObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDButtonStartObjects1Objects = Hashtable.newFrom({"ButtonStart": gdjs.MainMenuCode.GDButtonStartObjects1});gdjs.MainMenuCode.eventsList0 = function(runtimeScene) {
@@ -35,6 +39,26 @@ gdjs.MainMenuCode.condition0IsTrue_0.val = false;
 {
 gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.MainMenuCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "start time");
+}}
+
+}
+
+
+{
+
+
+gdjs.MainMenuCode.condition0IsTrue_0.val = false;
+gdjs.MainMenuCode.condition1IsTrue_0.val = false;
+{
+gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 1, "start time");
+}if ( gdjs.MainMenuCode.condition0IsTrue_0.val ) {
+{
+{gdjs.MainMenuCode.conditionTrue_1 = gdjs.MainMenuCode.condition1IsTrue_0;
+gdjs.MainMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12415476);
+}
+}}
+if (gdjs.MainMenuCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.sound.playMusic(runtimeScene, "Spring Chicken.mp3", true, 100, 1);
 }}
 
