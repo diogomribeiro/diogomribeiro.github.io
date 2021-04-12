@@ -273,14 +273,14 @@ gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition1IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12581788);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12833260);
 }
 }}
 if (gdjs.Level2Code.condition1IsTrue_0.val) {
 gdjs.Level2Code.GDGameOverTextObjects2.length = 0;
 
 {gdjs.evtTools.sound.playSound(runtimeScene, "game_over.wav", false, 100, 1);
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDGameOverTextObjects2Objects, 250, 250, "GUI");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDGameOverTextObjects2Objects, 475, 320, "GUI");
 }}
 
 }
@@ -296,7 +296,7 @@ gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition1IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12583924);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11818724);
 }
 }}
 if (gdjs.Level2Code.condition1IsTrue_0.val) {
@@ -314,7 +314,7 @@ if (gdjs.Level2Code.condition1IsTrue_0.val) {
 gdjs.Level2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition0IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12586156);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12825620);
 }
 }if (gdjs.Level2Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -913,7 +913,7 @@ gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition1IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12617860);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12596900);
 }
 }}
 if (gdjs.Level2Code.condition1IsTrue_0.val) {
@@ -988,7 +988,7 @@ gdjs.Level2Code.GDPlayerHitBoxObjects2.length = k;}if (gdjs.Level2Code.condition
 }
 
 
-};gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level2Code.GDPlayerHitBoxObjects1});gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDLargeSignObjects1Objects = Hashtable.newFrom({"LargeSign": gdjs.Level2Code.GDLargeSignObjects1});gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDEndSecondLevelTextObjects1Objects = Hashtable.newFrom({"EndSecondLevelText": gdjs.Level2Code.GDEndSecondLevelTextObjects1});gdjs.Level2Code.eventsList12 = function(runtimeScene) {
+};gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level2Code.GDPlayerHitBoxObjects1});gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDLargeSignObjects1Objects = Hashtable.newFrom({"LargeSign": gdjs.Level2Code.GDLargeSignObjects1});gdjs.Level2Code.eventsList12 = function(runtimeScene) {
 
 {
 
@@ -1000,7 +1000,7 @@ gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition1IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12628348);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12623900);
 }
 }}
 if (gdjs.Level2Code.condition1IsTrue_0.val) {
@@ -1030,9 +1030,10 @@ gdjs.Level2Code.condition0IsTrue_0.val = false;
 gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDPlayerHitBoxObjects1Objects, gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDLargeSignObjects1Objects, false, runtimeScene, false);
 }if (gdjs.Level2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("DodoPartner"), gdjs.Level2Code.GDDodoPartnerObjects1);
-gdjs.Level2Code.GDEndSecondLevelTextObjects1.length = 0;
-
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Level2Code.mapOfGDgdjs_46Level2Code_46GDEndSecondLevelTextObjects1Objects, 200, 20, "GUI");
+gdjs.copyArray(runtimeScene.getObjects("EndSecondLevelText"), gdjs.Level2Code.GDEndSecondLevelTextObjects1);
+{for(var i = 0, len = gdjs.Level2Code.GDEndSecondLevelTextObjects1.length ;i < len;++i) {
+    gdjs.Level2Code.GDEndSecondLevelTextObjects1[i].hide(false);
+}
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "end timer");
 }{for(var i = 0, len = gdjs.Level2Code.GDDodoPartnerObjects1.length ;i < len;++i) {
     gdjs.Level2Code.GDDodoPartnerObjects1[i].flipX(true);
@@ -1054,9 +1055,13 @@ gdjs.Level2Code.condition0IsTrue_0.val = false;
 {
 gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.Level2Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("EndSecondLevelText"), gdjs.Level2Code.GDEndSecondLevelTextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level2Code.GDPlayerHitBoxObjects1);
 {for(var i = 0, len = gdjs.Level2Code.GDPlayerHitBoxObjects1.length ;i < len;++i) {
     gdjs.Level2Code.GDPlayerHitBoxObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.Level2Code.GDEndSecondLevelTextObjects1.length ;i < len;++i) {
+    gdjs.Level2Code.GDEndSecondLevelTextObjects1[i].hide();
 }
 }
 { //Subevents

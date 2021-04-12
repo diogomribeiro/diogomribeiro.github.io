@@ -223,7 +223,7 @@ if (gdjs.Level1Code.condition1IsTrue_0.val) {
 gdjs.Level1Code.GDGameOverTextObjects2.length = 0;
 
 {gdjs.evtTools.sound.playSound(runtimeScene, "game_over.wav", false, 100, 1);
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDGameOverTextObjects2Objects, 250, 250, "GUI");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDGameOverTextObjects2Objects, 475, 320, "GUI");
 }}
 
 }
@@ -928,7 +928,7 @@ gdjs.Level1Code.GDPlayerHitBoxObjects2.length = k;}if (gdjs.Level1Code.condition
 }
 
 
-};gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level1Code.GDPlayerHitBoxObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDLargeSignObjects1Objects = Hashtable.newFrom({"LargeSign": gdjs.Level1Code.GDLargeSignObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDEndFirstLevelTextObjects1Objects = Hashtable.newFrom({"EndFirstLevelText": gdjs.Level1Code.GDEndFirstLevelTextObjects1});gdjs.Level1Code.eventsList11 = function(runtimeScene) {
+};gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level1Code.GDPlayerHitBoxObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDLargeSignObjects1Objects = Hashtable.newFrom({"LargeSign": gdjs.Level1Code.GDLargeSignObjects1});gdjs.Level1Code.eventsList11 = function(runtimeScene) {
 
 {
 
@@ -970,9 +970,10 @@ gdjs.Level1Code.condition0IsTrue_0.val = false;
 gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDPlayerHitBoxObjects1Objects, gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDLargeSignObjects1Objects, false, runtimeScene, false);
 }if (gdjs.Level1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("DodoPartner"), gdjs.Level1Code.GDDodoPartnerObjects1);
-gdjs.Level1Code.GDEndFirstLevelTextObjects1.length = 0;
-
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDEndFirstLevelTextObjects1Objects, 200, 20, "GUI");
+gdjs.copyArray(runtimeScene.getObjects("EndFirstLevelText"), gdjs.Level1Code.GDEndFirstLevelTextObjects1);
+{for(var i = 0, len = gdjs.Level1Code.GDEndFirstLevelTextObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDEndFirstLevelTextObjects1[i].hide(false);
+}
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "end timer");
 }{for(var i = 0, len = gdjs.Level1Code.GDDodoPartnerObjects1.length ;i < len;++i) {
     gdjs.Level1Code.GDDodoPartnerObjects1[i].flipX(true);
@@ -994,9 +995,13 @@ gdjs.Level1Code.condition0IsTrue_0.val = false;
 {
 gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.Level1Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("EndFirstLevelText"), gdjs.Level1Code.GDEndFirstLevelTextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level1Code.GDPlayerHitBoxObjects1);
 {for(var i = 0, len = gdjs.Level1Code.GDPlayerHitBoxObjects1.length ;i < len;++i) {
     gdjs.Level1Code.GDPlayerHitBoxObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.Level1Code.GDEndFirstLevelTextObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDEndFirstLevelTextObjects1[i].hide();
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(3);
 }{runtimeScene.getGame().getVariables().get("Score").setNumber(0);
