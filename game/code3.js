@@ -257,6 +257,10 @@ gdjs.Level3Code.GDSkeletonObjects1= [];
 gdjs.Level3Code.GDSkeletonObjects2= [];
 gdjs.Level3Code.GDSkeletonObjects3= [];
 gdjs.Level3Code.GDSkeletonObjects4= [];
+gdjs.Level3Code.GDBButtonObjects1= [];
+gdjs.Level3Code.GDBButtonObjects2= [];
+gdjs.Level3Code.GDBButtonObjects3= [];
+gdjs.Level3Code.GDBButtonObjects4= [];
 
 gdjs.Level3Code.conditionTrue_0 = {val:false};
 gdjs.Level3Code.condition0IsTrue_0 = {val:false};
@@ -297,7 +301,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12915956);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11581412);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -320,7 +324,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12918180);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11583636);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -338,7 +342,7 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 gdjs.Level3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition0IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12920324);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11585780);
 }
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -747,7 +751,7 @@ gdjs.copyArray(runtimeScene.getObjects("Vies"), gdjs.Level3Code.GDViesObjects1);
 }
 
 
-};gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDLeftButtonObjects2Objects = Hashtable.newFrom({"LeftButton": gdjs.Level3Code.GDLeftButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDRightButtonObjects2Objects = Hashtable.newFrom({"RightButton": gdjs.Level3Code.GDRightButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTopButtonObjects2Objects = Hashtable.newFrom({"TopButton": gdjs.Level3Code.GDTopButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBottomButtonObjects2Objects = Hashtable.newFrom({"BottomButton": gdjs.Level3Code.GDBottomButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDJumpButtonObjects1Objects = Hashtable.newFrom({"JumpButton": gdjs.Level3Code.GDJumpButtonObjects1});gdjs.Level3Code.eventsList9 = function(runtimeScene) {
+};gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDLeftButtonObjects2Objects = Hashtable.newFrom({"LeftButton": gdjs.Level3Code.GDLeftButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDRightButtonObjects2Objects = Hashtable.newFrom({"RightButton": gdjs.Level3Code.GDRightButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTopButtonObjects2Objects = Hashtable.newFrom({"TopButton": gdjs.Level3Code.GDTopButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBottomButtonObjects2Objects = Hashtable.newFrom({"BottomButton": gdjs.Level3Code.GDBottomButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDJumpButtonObjects2Objects = Hashtable.newFrom({"JumpButton": gdjs.Level3Code.GDJumpButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBButtonObjects2Objects = Hashtable.newFrom({"BButton": gdjs.Level3Code.GDBButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDLeftButtonObjects2Objects = Hashtable.newFrom({"LeftButton": gdjs.Level3Code.GDLeftButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDRightButtonObjects2Objects = Hashtable.newFrom({"RightButton": gdjs.Level3Code.GDRightButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBButtonObjects2Objects = Hashtable.newFrom({"BButton": gdjs.Level3Code.GDBButtonObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBButtonObjects1Objects = Hashtable.newFrom({"BButton": gdjs.Level3Code.GDBButtonObjects1});gdjs.Level3Code.eventsList9 = function(runtimeScene) {
 
 {
 
@@ -806,9 +810,20 @@ gdjs.Level3Code.condition0IsTrue_0.val = false;
 {
 gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDLeftButtonObjects2Objects, runtimeScene, true, false);
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Level3Code.GDPlayerObjects2);
 gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level3Code.GDPlayerHitBoxObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Scream"), gdjs.Level3Code.GDScreamObjects2);
 {for(var i = 0, len = gdjs.Level3Code.GDPlayerHitBoxObjects2.length ;i < len;++i) {
     gdjs.Level3Code.GDPlayerHitBoxObjects2[i].getBehavior("PlatformerObject").simulateLeftKey();
+}
+}{for(var i = 0, len = gdjs.Level3Code.GDPlayerObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDPlayerObjects2[i].flipX(true);
+}
+}{for(var i = 0, len = gdjs.Level3Code.GDScreamObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDScreamObjects2[i].flipX(true);
+}
+}{for(var i = 0, len = gdjs.Level3Code.GDScreamObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDScreamObjects2[i].setPosition((( gdjs.Level3Code.GDPlayerHitBoxObjects2.length === 0 ) ? 0 :gdjs.Level3Code.GDPlayerHitBoxObjects2[0].getPointX("")) - 80,(( gdjs.Level3Code.GDPlayerHitBoxObjects2.length === 0 ) ? 0 :gdjs.Level3Code.GDPlayerHitBoxObjects2[0].getPointY("")) - 2000);
 }
 }}
 
@@ -823,9 +838,20 @@ gdjs.Level3Code.condition0IsTrue_0.val = false;
 {
 gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDRightButtonObjects2Objects, runtimeScene, true, false);
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Level3Code.GDPlayerObjects2);
 gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level3Code.GDPlayerHitBoxObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Scream"), gdjs.Level3Code.GDScreamObjects2);
 {for(var i = 0, len = gdjs.Level3Code.GDPlayerHitBoxObjects2.length ;i < len;++i) {
     gdjs.Level3Code.GDPlayerHitBoxObjects2[i].getBehavior("PlatformerObject").simulateRightKey();
+}
+}{for(var i = 0, len = gdjs.Level3Code.GDPlayerObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDPlayerObjects2[i].flipX(false);
+}
+}{for(var i = 0, len = gdjs.Level3Code.GDScreamObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDScreamObjects2[i].flipX(false);
+}
+}{for(var i = 0, len = gdjs.Level3Code.GDScreamObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDScreamObjects2[i].setPosition((( gdjs.Level3Code.GDPlayerHitBoxObjects2.length === 0 ) ? 0 :gdjs.Level3Code.GDPlayerHitBoxObjects2[0].getPointX("")) + 80,(( gdjs.Level3Code.GDPlayerHitBoxObjects2.length === 0 ) ? 0 :gdjs.Level3Code.GDPlayerHitBoxObjects2[0].getPointY("")) + 2000);
 }
 }}
 
@@ -871,16 +897,94 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level3Code.GDPlayer
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("JumpButton"), gdjs.Level3Code.GDJumpButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("JumpButton"), gdjs.Level3Code.GDJumpButtonObjects2);
 
 gdjs.Level3Code.condition0IsTrue_0.val = false;
 {
-gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDJumpButtonObjects1Objects, runtimeScene, true, false);
+gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDJumpButtonObjects2Objects, runtimeScene, true, false);
+}if (gdjs.Level3Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level3Code.GDPlayerHitBoxObjects2);
+{for(var i = 0, len = gdjs.Level3Code.GDPlayerHitBoxObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDPlayerHitBoxObjects2[i].getBehavior("PlatformerObject").simulateJumpKey();
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("BButton"), gdjs.Level3Code.GDBButtonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("LeftButton"), gdjs.Level3Code.GDLeftButtonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("RightButton"), gdjs.Level3Code.GDRightButtonObjects2);
+
+gdjs.Level3Code.condition0IsTrue_0.val = false;
+gdjs.Level3Code.condition1IsTrue_0.val = false;
+gdjs.Level3Code.condition2IsTrue_0.val = false;
+{
+gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBButtonObjects2Objects, runtimeScene, true, false);
+}if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
+{
+gdjs.Level3Code.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDLeftButtonObjects2Objects, runtimeScene, true, true);
+}if ( gdjs.Level3Code.condition1IsTrue_0.val ) {
+{
+gdjs.Level3Code.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDRightButtonObjects2Objects, runtimeScene, true, true);
+}}
+}
+if (gdjs.Level3Code.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Level3Code.GDPlayerObjects2);
+gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level3Code.GDPlayerHitBoxObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Scream"), gdjs.Level3Code.GDScreamObjects2);
+{for(var i = 0, len = gdjs.Level3Code.GDPlayerObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDPlayerObjects2[i].setAnimationName("Scream");
+}
+}{for(var i = 0, len = gdjs.Level3Code.GDScreamObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDScreamObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.Level3Code.GDScreamObjects2.length ;i < len;++i) {
+    gdjs.Level3Code.GDScreamObjects2[i].setY((( gdjs.Level3Code.GDPlayerHitBoxObjects2.length === 0 ) ? 0 :gdjs.Level3Code.GDPlayerHitBoxObjects2[0].getPointY("")) - 20);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("BButton"), gdjs.Level3Code.GDBButtonObjects2);
+
+gdjs.Level3Code.condition0IsTrue_0.val = false;
+gdjs.Level3Code.condition1IsTrue_0.val = false;
+{
+gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBButtonObjects2Objects, runtimeScene, true, false);
+}if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
+{
+gdjs.Level3Code.condition1IsTrue_0.val = gdjs.evtTools.sound.isMusicOnChannelStopped(runtimeScene, 1);
+}}
+if (gdjs.Level3Code.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "scream.mp3", 1, false, 100, 1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("BButton"), gdjs.Level3Code.GDBButtonObjects1);
+
+gdjs.Level3Code.condition0IsTrue_0.val = false;
+{
+gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBButtonObjects1Objects, runtimeScene, true, true);
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level3Code.GDPlayerHitBoxObjects1);
-{for(var i = 0, len = gdjs.Level3Code.GDPlayerHitBoxObjects1.length ;i < len;++i) {
-    gdjs.Level3Code.GDPlayerHitBoxObjects1[i].getBehavior("PlatformerObject").simulateJumpKey();
+gdjs.copyArray(runtimeScene.getObjects("Scream"), gdjs.Level3Code.GDScreamObjects1);
+{for(var i = 0, len = gdjs.Level3Code.GDScreamObjects1.length ;i < len;++i) {
+    gdjs.Level3Code.GDScreamObjects1[i].hide();
 }
+}{for(var i = 0, len = gdjs.Level3Code.GDScreamObjects1.length ;i < len;++i) {
+    gdjs.Level3Code.GDScreamObjects1[i].setY((( gdjs.Level3Code.GDPlayerHitBoxObjects1.length === 0 ) ? 0 :gdjs.Level3Code.GDPlayerHitBoxObjects1[0].getPointX("")) + 2000);
+}
+}{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }}
 
 }
@@ -937,7 +1041,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12951628);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11617060);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -1024,7 +1128,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12961500);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11626932);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -1921,6 +2025,10 @@ gdjs.Level3Code.GDSkeletonObjects1.length = 0;
 gdjs.Level3Code.GDSkeletonObjects2.length = 0;
 gdjs.Level3Code.GDSkeletonObjects3.length = 0;
 gdjs.Level3Code.GDSkeletonObjects4.length = 0;
+gdjs.Level3Code.GDBButtonObjects1.length = 0;
+gdjs.Level3Code.GDBButtonObjects2.length = 0;
+gdjs.Level3Code.GDBButtonObjects3.length = 0;
+gdjs.Level3Code.GDBButtonObjects4.length = 0;
 
 gdjs.Level3Code.eventsList14(runtimeScene);
 return;
