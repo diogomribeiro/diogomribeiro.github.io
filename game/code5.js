@@ -33,6 +33,10 @@ gdjs.VictoryCode.GDSummerTileObjects1= [];
 gdjs.VictoryCode.GDSummerTileObjects2= [];
 gdjs.VictoryCode.GDTree2Objects1= [];
 gdjs.VictoryCode.GDTree2Objects2= [];
+gdjs.VictoryCode.GDCreditsButtonObjects1= [];
+gdjs.VictoryCode.GDCreditsButtonObjects2= [];
+gdjs.VictoryCode.GDPlayAgainObjects1= [];
+gdjs.VictoryCode.GDPlayAgainObjects2= [];
 
 gdjs.VictoryCode.conditionTrue_0 = {val:false};
 gdjs.VictoryCode.condition0IsTrue_0 = {val:false};
@@ -40,7 +44,7 @@ gdjs.VictoryCode.condition1IsTrue_0 = {val:false};
 gdjs.VictoryCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDButtonStartObjects1Objects = Hashtable.newFrom({"ButtonStart": gdjs.VictoryCode.GDButtonStartObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDButtonStartObjects1Objects = Hashtable.newFrom({"ButtonStart": gdjs.VictoryCode.GDButtonStartObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDButtonStartObjects1Objects = Hashtable.newFrom({"ButtonStart": gdjs.VictoryCode.GDButtonStartObjects1});gdjs.VictoryCode.eventsList0 = function(runtimeScene) {
+gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects = Hashtable.newFrom({"CreditsButton": gdjs.VictoryCode.GDCreditsButtonObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects = Hashtable.newFrom({"CreditsButton": gdjs.VictoryCode.GDCreditsButtonObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects = Hashtable.newFrom({"CreditsButton": gdjs.VictoryCode.GDCreditsButtonObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects = Hashtable.newFrom({"PlayAgain": gdjs.VictoryCode.GDPlayAgainObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects = Hashtable.newFrom({"PlayAgain": gdjs.VictoryCode.GDPlayAgainObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects = Hashtable.newFrom({"PlayAgain": gdjs.VictoryCode.GDPlayAgainObjects1});gdjs.VictoryCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -57,23 +61,6 @@ gdjs.copyArray(runtimeScene.getObjects("Score"), gdjs.VictoryCode.GDScoreObjects
 }
 }{for(var i = 0, len = gdjs.VictoryCode.GDDodoObjects1.length ;i < len;++i) {
     gdjs.VictoryCode.GDDodoObjects1[i].flipX(true);
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("ButtonStart"), gdjs.VictoryCode.GDButtonStartObjects1);
-
-gdjs.VictoryCode.condition0IsTrue_0.val = false;
-{
-gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDButtonStartObjects1Objects, runtimeScene, true, false);
-}if (gdjs.VictoryCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.VictoryCode.GDButtonStartObjects1 */
-{for(var i = 0, len = gdjs.VictoryCode.GDButtonStartObjects1.length ;i < len;++i) {
-    gdjs.VictoryCode.GDButtonStartObjects1[i].setAnimationName("StartHover");
 }
 }}
 
@@ -103,15 +90,15 @@ gdjs.copyArray(runtimeScene.getObjects("Dodo3"), gdjs.VictoryCode.GDDodo3Objects
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("ButtonStart"), gdjs.VictoryCode.GDButtonStartObjects1);
+gdjs.copyArray(runtimeScene.getObjects("CreditsButton"), gdjs.VictoryCode.GDCreditsButtonObjects1);
 
 gdjs.VictoryCode.condition0IsTrue_0.val = false;
 {
-gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDButtonStartObjects1Objects, runtimeScene, true, true);
+gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects, runtimeScene, true, false);
 }if (gdjs.VictoryCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.VictoryCode.GDButtonStartObjects1 */
-{for(var i = 0, len = gdjs.VictoryCode.GDButtonStartObjects1.length ;i < len;++i) {
-    gdjs.VictoryCode.GDButtonStartObjects1[i].setAnimationName("StartNormal");
+/* Reuse gdjs.VictoryCode.GDCreditsButtonObjects1 */
+{for(var i = 0, len = gdjs.VictoryCode.GDCreditsButtonObjects1.length ;i < len;++i) {
+    gdjs.VictoryCode.GDCreditsButtonObjects1[i].setAnimationName("Hover");
 }
 }}
 
@@ -120,12 +107,82 @@ gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("ButtonStart"), gdjs.VictoryCode.GDButtonStartObjects1);
+gdjs.copyArray(runtimeScene.getObjects("CreditsButton"), gdjs.VictoryCode.GDCreditsButtonObjects1);
+
+gdjs.VictoryCode.condition0IsTrue_0.val = false;
+{
+gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects, runtimeScene, true, true);
+}if (gdjs.VictoryCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.VictoryCode.GDCreditsButtonObjects1 */
+{for(var i = 0, len = gdjs.VictoryCode.GDCreditsButtonObjects1.length ;i < len;++i) {
+    gdjs.VictoryCode.GDCreditsButtonObjects1[i].setAnimationName("Normal");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("CreditsButton"), gdjs.VictoryCode.GDCreditsButtonObjects1);
 
 gdjs.VictoryCode.condition0IsTrue_0.val = false;
 gdjs.VictoryCode.condition1IsTrue_0.val = false;
 {
-gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDButtonStartObjects1Objects, runtimeScene, true, false);
+gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.VictoryCode.condition0IsTrue_0.val ) {
+{
+gdjs.VictoryCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.VictoryCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Credits", false);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("PlayAgain"), gdjs.VictoryCode.GDPlayAgainObjects1);
+
+gdjs.VictoryCode.condition0IsTrue_0.val = false;
+{
+gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects, runtimeScene, true, false);
+}if (gdjs.VictoryCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.VictoryCode.GDPlayAgainObjects1 */
+{for(var i = 0, len = gdjs.VictoryCode.GDPlayAgainObjects1.length ;i < len;++i) {
+    gdjs.VictoryCode.GDPlayAgainObjects1[i].setAnimationName("Hover");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("PlayAgain"), gdjs.VictoryCode.GDPlayAgainObjects1);
+
+gdjs.VictoryCode.condition0IsTrue_0.val = false;
+{
+gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects, runtimeScene, true, true);
+}if (gdjs.VictoryCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.VictoryCode.GDPlayAgainObjects1 */
+{for(var i = 0, len = gdjs.VictoryCode.GDPlayAgainObjects1.length ;i < len;++i) {
+    gdjs.VictoryCode.GDPlayAgainObjects1[i].setAnimationName("Normal");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("PlayAgain"), gdjs.VictoryCode.GDPlayAgainObjects1);
+
+gdjs.VictoryCode.condition0IsTrue_0.val = false;
+gdjs.VictoryCode.condition1IsTrue_0.val = false;
+{
+gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.VictoryCode.condition0IsTrue_0.val ) {
 {
 gdjs.VictoryCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
@@ -176,6 +233,10 @@ gdjs.VictoryCode.GDSummerTileObjects1.length = 0;
 gdjs.VictoryCode.GDSummerTileObjects2.length = 0;
 gdjs.VictoryCode.GDTree2Objects1.length = 0;
 gdjs.VictoryCode.GDTree2Objects2.length = 0;
+gdjs.VictoryCode.GDCreditsButtonObjects1.length = 0;
+gdjs.VictoryCode.GDCreditsButtonObjects2.length = 0;
+gdjs.VictoryCode.GDPlayAgainObjects1.length = 0;
+gdjs.VictoryCode.GDPlayAgainObjects2.length = 0;
 
 gdjs.VictoryCode.eventsList0(runtimeScene);
 return;

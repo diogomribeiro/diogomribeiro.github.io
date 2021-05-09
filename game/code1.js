@@ -236,7 +236,7 @@ gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level1Code.conditionTrue_1 = gdjs.Level1Code.condition1IsTrue_0;
-gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12013116);
+gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12766468);
 }
 }}
 if (gdjs.Level1Code.condition1IsTrue_0.val) {
@@ -259,7 +259,7 @@ gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level1Code.conditionTrue_1 = gdjs.Level1Code.condition1IsTrue_0;
-gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12014084);
+gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12767436);
 }
 }}
 if (gdjs.Level1Code.condition1IsTrue_0.val) {
@@ -277,7 +277,7 @@ if (gdjs.Level1Code.condition1IsTrue_0.val) {
 gdjs.Level1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level1Code.conditionTrue_1 = gdjs.Level1Code.condition0IsTrue_0;
-gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12016100);
+gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12769452);
 }
 }if (gdjs.Level1Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -873,7 +873,7 @@ gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level1Code.conditionTrue_1 = gdjs.Level1Code.condition1IsTrue_0;
-gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12036804);
+gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12790156);
 }
 }}
 if (gdjs.Level1Code.condition1IsTrue_0.val) {
@@ -987,7 +987,7 @@ gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level1Code.conditionTrue_1 = gdjs.Level1Code.condition1IsTrue_0;
-gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12043244);
+gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12796596);
 }
 }}
 if (gdjs.Level1Code.condition1IsTrue_0.val) {
@@ -1067,7 +1067,7 @@ gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level1Code.conditionTrue_1 = gdjs.Level1Code.condition1IsTrue_0;
-gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12048468);
+gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12801820);
 }
 }}
 if (gdjs.Level1Code.condition1IsTrue_0.val) {
