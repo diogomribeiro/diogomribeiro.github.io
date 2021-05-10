@@ -209,6 +209,10 @@ gdjs.Level1Code.GDNestObjects1= [];
 gdjs.Level1Code.GDNestObjects2= [];
 gdjs.Level1Code.GDNestObjects3= [];
 gdjs.Level1Code.GDNestObjects4= [];
+gdjs.Level1Code.GDEndTimerText2Objects1= [];
+gdjs.Level1Code.GDEndTimerText2Objects2= [];
+gdjs.Level1Code.GDEndTimerText2Objects3= [];
+gdjs.Level1Code.GDEndTimerText2Objects4= [];
 gdjs.Level1Code.GDBlueSmallPlantObjects1= [];
 gdjs.Level1Code.GDBlueSmallPlantObjects2= [];
 gdjs.Level1Code.GDBlueSmallPlantObjects3= [];
@@ -956,7 +960,7 @@ gdjs.Level1Code.GDPlayerHitBoxObjects2.length = k;}if (gdjs.Level1Code.condition
 }
 
 
-};gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDPlayerHitBoxObjects2Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level1Code.GDPlayerHitBoxObjects2});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDLargeSignObjects2Objects = Hashtable.newFrom({"LargeSign": gdjs.Level1Code.GDLargeSignObjects2});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDEndTimerTextObjects2Objects = Hashtable.newFrom({"EndTimerText": gdjs.Level1Code.GDEndTimerTextObjects2});gdjs.Level1Code.eventsList11 = function(runtimeScene) {
+};gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDPlayerHitBoxObjects2Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.Level1Code.GDPlayerHitBoxObjects2});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDLargeSignObjects2Objects = Hashtable.newFrom({"LargeSign": gdjs.Level1Code.GDLargeSignObjects2});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDEndTimerText2Objects2Objects = Hashtable.newFrom({"EndTimerText2": gdjs.Level1Code.GDEndTimerText2Objects2});gdjs.Level1Code.eventsList11 = function(runtimeScene) {
 
 };gdjs.Level1Code.eventsList12 = function(runtimeScene) {
 
@@ -1010,10 +1014,10 @@ gdjs.Level1Code.condition0IsTrue_0.val = false;
 {
 gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 3, "end_timer");
 }if (gdjs.Level1Code.condition0IsTrue_0.val) {
-gdjs.Level1Code.GDEndTimerTextObjects2.length = 0;
+gdjs.Level1Code.GDEndTimerText2Objects2.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDEndTimerTextObjects2Objects, 475, 400, "GUI");
-}{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "countdown");
+{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "countdown");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDEndTimerText2Objects2Objects, 400, 400, "GUI");
 }}
 
 }
@@ -1041,22 +1045,10 @@ gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 {
 
 
-gdjs.Level1Code.condition0IsTrue_0.val = false;
 {
-gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("timer_number")) == 0;
-}if (gdjs.Level1Code.condition0IsTrue_0.val) {
-}
-
-}
-
-
-{
-
-
-{
-gdjs.copyArray(runtimeScene.getObjects("EndTimerText"), gdjs.Level1Code.GDEndTimerTextObjects2);
-{for(var i = 0, len = gdjs.Level1Code.GDEndTimerTextObjects2.length ;i < len;++i) {
-    gdjs.Level1Code.GDEndTimerTextObjects2[i].setBBText("[b][outline=yellow]prochaine niveau: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("timer_number"))) + "[/outline][/b]");
+gdjs.copyArray(runtimeScene.getObjects("EndTimerText2"), gdjs.Level1Code.GDEndTimerText2Objects2);
+{for(var i = 0, len = gdjs.Level1Code.GDEndTimerText2Objects2.length ;i < len;++i) {
+    gdjs.Level1Code.GDEndTimerText2Objects2[i].setString("prochaine niveau: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("timer_number"))));
 }
 }}
 
@@ -1844,6 +1836,10 @@ gdjs.Level1Code.GDNestObjects1.length = 0;
 gdjs.Level1Code.GDNestObjects2.length = 0;
 gdjs.Level1Code.GDNestObjects3.length = 0;
 gdjs.Level1Code.GDNestObjects4.length = 0;
+gdjs.Level1Code.GDEndTimerText2Objects1.length = 0;
+gdjs.Level1Code.GDEndTimerText2Objects2.length = 0;
+gdjs.Level1Code.GDEndTimerText2Objects3.length = 0;
+gdjs.Level1Code.GDEndTimerText2Objects4.length = 0;
 gdjs.Level1Code.GDBlueSmallPlantObjects1.length = 0;
 gdjs.Level1Code.GDBlueSmallPlantObjects2.length = 0;
 gdjs.Level1Code.GDBlueSmallPlantObjects3.length = 0;
