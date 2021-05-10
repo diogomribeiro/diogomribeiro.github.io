@@ -42,6 +42,10 @@ gdjs.VictoryCode.conditionTrue_0 = {val:false};
 gdjs.VictoryCode.condition0IsTrue_0 = {val:false};
 gdjs.VictoryCode.condition1IsTrue_0 = {val:false};
 gdjs.VictoryCode.condition2IsTrue_0 = {val:false};
+gdjs.VictoryCode.conditionTrue_1 = {val:false};
+gdjs.VictoryCode.condition0IsTrue_1 = {val:false};
+gdjs.VictoryCode.condition1IsTrue_1 = {val:false};
+gdjs.VictoryCode.condition2IsTrue_1 = {val:false};
 
 
 gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects = Hashtable.newFrom({"CreditsButton": gdjs.VictoryCode.GDCreditsButtonObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects = Hashtable.newFrom({"CreditsButton": gdjs.VictoryCode.GDCreditsButtonObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects = Hashtable.newFrom({"CreditsButton": gdjs.VictoryCode.GDCreditsButtonObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects = Hashtable.newFrom({"PlayAgain": gdjs.VictoryCode.GDPlayAgainObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects = Hashtable.newFrom({"PlayAgain": gdjs.VictoryCode.GDPlayAgainObjects1});gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects = Hashtable.newFrom({"PlayAgain": gdjs.VictoryCode.GDPlayAgainObjects1});gdjs.VictoryCode.eventsList0 = function(runtimeScene) {
@@ -132,7 +136,24 @@ gdjs.VictoryCode.condition1IsTrue_0.val = false;
 gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDCreditsButtonObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.VictoryCode.condition0IsTrue_0.val ) {
 {
-gdjs.VictoryCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+{gdjs.VictoryCode.conditionTrue_1 = gdjs.VictoryCode.condition1IsTrue_0;
+gdjs.VictoryCode.condition0IsTrue_1.val = false;
+gdjs.VictoryCode.condition1IsTrue_1.val = false;
+{
+gdjs.VictoryCode.condition0IsTrue_1.val = gdjs.evtTools.input.popEndedTouch(runtimeScene);
+if( gdjs.VictoryCode.condition0IsTrue_1.val ) {
+    gdjs.VictoryCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.VictoryCode.condition1IsTrue_1.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if( gdjs.VictoryCode.condition1IsTrue_1.val ) {
+    gdjs.VictoryCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
 }}
 if (gdjs.VictoryCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Credits", false);
@@ -185,7 +206,24 @@ gdjs.VictoryCode.condition1IsTrue_0.val = false;
 gdjs.VictoryCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.VictoryCode.mapOfGDgdjs_46VictoryCode_46GDPlayAgainObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.VictoryCode.condition0IsTrue_0.val ) {
 {
-gdjs.VictoryCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+{gdjs.VictoryCode.conditionTrue_1 = gdjs.VictoryCode.condition1IsTrue_0;
+gdjs.VictoryCode.condition0IsTrue_1.val = false;
+gdjs.VictoryCode.condition1IsTrue_1.val = false;
+{
+gdjs.VictoryCode.condition0IsTrue_1.val = gdjs.evtTools.input.popEndedTouch(runtimeScene);
+if( gdjs.VictoryCode.condition0IsTrue_1.val ) {
+    gdjs.VictoryCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.VictoryCode.condition1IsTrue_1.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if( gdjs.VictoryCode.condition1IsTrue_1.val ) {
+    gdjs.VictoryCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
 }}
 if (gdjs.VictoryCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level1", true);

@@ -267,6 +267,10 @@ gdjs.Level2Code.GDBlueSmallPlantObjects1= [];
 gdjs.Level2Code.GDBlueSmallPlantObjects2= [];
 gdjs.Level2Code.GDBlueSmallPlantObjects3= [];
 gdjs.Level2Code.GDBlueSmallPlantObjects4= [];
+gdjs.Level2Code.GDWinterTilePlatformCenterObjects1= [];
+gdjs.Level2Code.GDWinterTilePlatformCenterObjects2= [];
+gdjs.Level2Code.GDWinterTilePlatformCenterObjects3= [];
+gdjs.Level2Code.GDWinterTilePlatformCenterObjects4= [];
 
 gdjs.Level2Code.conditionTrue_0 = {val:false};
 gdjs.Level2Code.condition0IsTrue_0 = {val:false};
@@ -311,7 +315,7 @@ gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition1IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12877260);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12913724);
 }
 }}
 if (gdjs.Level2Code.condition1IsTrue_0.val) {
@@ -334,7 +338,7 @@ gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition1IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9177468);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9173004);
 }
 }}
 if (gdjs.Level2Code.condition1IsTrue_0.val) {
@@ -352,7 +356,7 @@ if (gdjs.Level2Code.condition1IsTrue_0.val) {
 gdjs.Level2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition0IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10220076);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9262372);
 }
 }if (gdjs.Level2Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -977,7 +981,7 @@ gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition1IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9550772);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10202244);
 }
 }}
 if (gdjs.Level2Code.condition1IsTrue_0.val) {
@@ -1075,7 +1079,7 @@ gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition1IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7859332);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10784676);
 }
 }}
 if (gdjs.Level2Code.condition1IsTrue_0.val) {
@@ -1169,7 +1173,7 @@ gdjs.Level2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if ( gdjs.Level2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level2Code.conditionTrue_1 = gdjs.Level2Code.condition1IsTrue_0;
-gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10420980);
+gdjs.Level2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13007068);
 }
 }}
 if (gdjs.Level2Code.condition1IsTrue_0.val) {
@@ -2205,6 +2209,10 @@ gdjs.Level2Code.GDBlueSmallPlantObjects1.length = 0;
 gdjs.Level2Code.GDBlueSmallPlantObjects2.length = 0;
 gdjs.Level2Code.GDBlueSmallPlantObjects3.length = 0;
 gdjs.Level2Code.GDBlueSmallPlantObjects4.length = 0;
+gdjs.Level2Code.GDWinterTilePlatformCenterObjects1.length = 0;
+gdjs.Level2Code.GDWinterTilePlatformCenterObjects2.length = 0;
+gdjs.Level2Code.GDWinterTilePlatformCenterObjects3.length = 0;
+gdjs.Level2Code.GDWinterTilePlatformCenterObjects4.length = 0;
 
 gdjs.Level2Code.eventsList14(runtimeScene);
 return;

@@ -18,6 +18,10 @@ gdjs.CreditsCode.conditionTrue_0 = {val:false};
 gdjs.CreditsCode.condition0IsTrue_0 = {val:false};
 gdjs.CreditsCode.condition1IsTrue_0 = {val:false};
 gdjs.CreditsCode.condition2IsTrue_0 = {val:false};
+gdjs.CreditsCode.conditionTrue_1 = {val:false};
+gdjs.CreditsCode.condition0IsTrue_1 = {val:false};
+gdjs.CreditsCode.condition1IsTrue_1 = {val:false};
+gdjs.CreditsCode.condition2IsTrue_1 = {val:false};
 
 
 gdjs.CreditsCode.mapOfGDgdjs_46CreditsCode_46GDGoBackObjects1Objects = Hashtable.newFrom({"GoBack": gdjs.CreditsCode.GDGoBackObjects1});gdjs.CreditsCode.eventsList0 = function(runtimeScene) {
@@ -32,7 +36,24 @@ gdjs.CreditsCode.condition1IsTrue_0.val = false;
 gdjs.CreditsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.CreditsCode.mapOfGDgdjs_46CreditsCode_46GDGoBackObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.CreditsCode.condition0IsTrue_0.val ) {
 {
-gdjs.CreditsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+{gdjs.CreditsCode.conditionTrue_1 = gdjs.CreditsCode.condition1IsTrue_0;
+gdjs.CreditsCode.condition0IsTrue_1.val = false;
+gdjs.CreditsCode.condition1IsTrue_1.val = false;
+{
+gdjs.CreditsCode.condition0IsTrue_1.val = gdjs.evtTools.input.popEndedTouch(runtimeScene);
+if( gdjs.CreditsCode.condition0IsTrue_1.val ) {
+    gdjs.CreditsCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.CreditsCode.condition1IsTrue_1.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if( gdjs.CreditsCode.condition1IsTrue_1.val ) {
+    gdjs.CreditsCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
 }}
 if (gdjs.CreditsCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Victory", false);
