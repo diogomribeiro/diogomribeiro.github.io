@@ -59,7 +59,7 @@ gdjs.MainMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 }
 }}
 if (gdjs.MainMenuCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.sound.playMusic(runtimeScene, "Spring Chicken.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playMusic(runtimeScene, "Spring Chicken.mp3", true, 100, 1);
 }}
 
 }
