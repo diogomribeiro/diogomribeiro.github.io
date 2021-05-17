@@ -165,7 +165,7 @@ var gdjs;
       return this.getY();
     }
     rotateTowardPosition(x, y, speed, scene) {
-      this.rotateTowardAngle(Math.atan2(y - (this.getDrawableY() + this.getCenterY()), x - (this.getDrawableX() + this.getCenterX())) * 180 / Math.PI, speed, scene);
+      this.rotateTowardAngle(gdjs2.toDegrees(Math.atan2(y - (this.getDrawableY() + this.getCenterY()), x - (this.getDrawableX() + this.getCenterX()))), speed, scene);
     }
     rotateTowardAngle(angle, speed, runtimeScene) {
       if (speed === 0) {
@@ -292,6 +292,22 @@ var gdjs;
     getCenterY() {
       return this.getHeight() / 2;
     }
+    getCenterXInScene() {
+      return this.getDrawableX() + this.getCenterX();
+    }
+    getCenterYInScene() {
+      return this.getDrawableY() + this.getCenterY();
+    }
+    setCenterPositionInScene(x, y) {
+      this.setX(x + this.x - (this.getDrawableX() + this.getCenterX()));
+      this.setY(y + this.y - (this.getDrawableY() + this.getCenterY()));
+    }
+    setCenterXInScene(x) {
+      this.setX(x + this.x - (this.getDrawableX() + this.getCenterX()));
+    }
+    setCenterYInScene(y) {
+      this.setY(y + this.y - (this.getDrawableY() + this.getCenterY()));
+    }
     _getRecycledForce(x, y, multiplier) {
       if (RuntimeObject2.forcesGarbage.length === 0) {
         return new gdjs2.Force(x, y, multiplier);
@@ -307,15 +323,15 @@ var gdjs;
       this._forces.push(this._getRecycledForce(x, y, multiplier));
     }
     addPolarForce(angle, len, multiplier) {
-      const angleInRadians = angle / 180 * 3.14159;
+      const angleInRadians = gdjs2.toRad(angle);
       const forceX = Math.cos(angleInRadians) * len;
       const forceY = Math.sin(angleInRadians) * len;
       this._forces.push(this._getRecycledForce(forceX, forceY, multiplier));
     }
     addForceTowardPosition(x, y, len, multiplier) {
-      const angle = Math.atan2(y - (this.getDrawableY() + this.getCenterY()), x - (this.getDrawableX() + this.getCenterX()));
-      const forceX = Math.cos(angle) * len;
-      const forceY = Math.sin(angle) * len;
+      const angleInRadians = Math.atan2(y - (this.getDrawableY() + this.getCenterY()), x - (this.getDrawableX() + this.getCenterX()));
+      const forceX = Math.cos(angleInRadians) * len;
+      const forceY = Math.sin(angleInRadians) * len;
       this._forces.push(this._getRecycledForce(forceX, forceY, multiplier));
     }
     addForceTowardObject(object, len, multiplier) {
@@ -399,7 +415,7 @@ var gdjs;
         this.hitBoxes[0].vertices[3][0] = 0 - centerX;
         this.hitBoxes[0].vertices[3][1] = height - centerY;
       }
-      this.hitBoxes[0].rotate(this.getAngle() / 180 * Math.PI);
+      this.hitBoxes[0].rotate(gdjs2.toRad(this.getAngle()));
       this.hitBoxes[0].move(this.getDrawableX() + centerX, this.getDrawableY() + centerY);
     }
     getAABB() {
@@ -620,17 +636,23 @@ var gdjs;
       }
       const x = this.getDrawableX() + this.getCenterX() - (otherObject.getDrawableX() + otherObject.getCenterX());
       const y = this.getDrawableY() + this.getCenterY() - (otherObject.getDrawableY() + otherObject.getCenterY());
-      return Math.atan2(-y, -x) * 180 / Math.PI;
+      return gdjs2.toDegrees(Math.atan2(-y, -x));
+    }
+    getXFromAngleAndDistance(angle, distance) {
+      return this.getDrawableX() + this.getCenterX() + distance * Math.cos(gdjs2.toRad(angle));
+    }
+    getYFromAngleAndDistance(angle, distance) {
+      return this.getDrawableY() + this.getCenterY() + distance * Math.sin(gdjs2.toRad(angle));
     }
     getAngleToPosition(targetX, targetY) {
       const x = this.getDrawableX() + this.getCenterX() - targetX;
       const y = this.getDrawableY() + this.getCenterY() - targetY;
-      return Math.atan2(-y, -x) * 180 / Math.PI;
+      return gdjs2.toDegrees(Math.atan2(-y, -x));
     }
     putAround(x, y, distance, angleInDegrees) {
-      const angle = angleInDegrees / 180 * 3.14159;
-      this.setX(x + Math.cos(angle) * distance + this.getX() - (this.getDrawableX() + this.getCenterX()));
-      this.setY(y + Math.sin(angle) * distance + this.getY() - (this.getDrawableY() + this.getCenterY()));
+      const angleInRadians = gdjs2.toRad(angleInDegrees);
+      this.setCenterXInScene(x + Math.cos(angleInRadians) * distance);
+      this.setCenterYInScene(y + Math.sin(angleInRadians) * distance);
     }
     putAroundObject(obj, distance, angleInDegrees) {
       this.putAround(obj.getDrawableX() + obj.getCenterX(), obj.getDrawableY() + obj.getCenterY(), distance, angleInDegrees);

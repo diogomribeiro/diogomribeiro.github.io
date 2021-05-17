@@ -195,7 +195,7 @@ var gdjs;
       this._addTween(identifier, newTweenable, this._runtimeScene.getTimeManager().getTimeFromStart(), durationValue);
       this._setupTweenEnding(identifier, destroyObjectWhenFinished);
     }
-    addObjectScaleTween(identifier, toScaleX, toScaleY, easingValue, durationValue, destroyObjectWhenFinished) {
+    addObjectScaleTween(identifier, toScaleX, toScaleY, easingValue, durationValue, destroyObjectWhenFinished, scaleFromCenterOfObject) {
       const that = this;
       if (!this._isActive) {
         return;
@@ -216,6 +216,21 @@ var gdjs;
         toScaleY = 0;
       }
       const newTweenable = TweenRuntimeBehavior2.makeNewTweenable(this._runtimeScene);
+      let stepFunction;
+      if (scaleFromCenterOfObject) {
+        stepFunction = function step(state) {
+          const oldX = that.owner.getCenterXInScene();
+          const oldY = that.owner.getCenterYInScene();
+          that.owner.setScaleX(state.scaleX);
+          that.owner.setScaleY(state.scaleY);
+          that.owner.setCenterPositionInScene(oldX, oldY);
+        };
+      } else {
+        stepFunction = function step(state) {
+          that.owner.setScaleX(state.scaleX);
+          that.owner.setScaleY(state.scaleY);
+        };
+      }
       newTweenable.setConfig({
         from: {
           scaleX: this.owner.getScaleX(),
@@ -224,15 +239,12 @@ var gdjs;
         to: {scaleX: toScaleX, scaleY: toScaleY},
         duration: durationValue,
         easing: easingValue,
-        step: function step(state) {
-          that.owner.setScaleX(state.scaleX);
-          that.owner.setScaleY(state.scaleY);
-        }
+        step: stepFunction
       });
       this._addTween(identifier, newTweenable, this._runtimeScene.getTimeManager().getTimeFromStart(), durationValue);
       this._setupTweenEnding(identifier, destroyObjectWhenFinished);
     }
-    addObjectScaleXTween(identifier, toScaleX, easingValue, durationValue, destroyObjectWhenFinished) {
+    addObjectScaleXTween(identifier, toScaleX, easingValue, durationValue, destroyObjectWhenFinished, scaleFromCenterOfObject) {
       const that = this;
       if (!this._isActive) {
         return;
@@ -247,19 +259,29 @@ var gdjs;
         this.removeTween(identifier);
       }
       const newTweenable = TweenRuntimeBehavior2.makeNewTweenable(this._runtimeScene);
+      let stepFunction;
+      if (scaleFromCenterOfObject) {
+        stepFunction = function step(state) {
+          const oldX = that.owner.getCenterXInScene();
+          that.owner.setScaleX(state.scaleX);
+          that.owner.setCenterXInScene(oldX);
+        };
+      } else {
+        stepFunction = function step(state) {
+          that.owner.setScaleX(state.scaleX);
+        };
+      }
       newTweenable.setConfig({
         from: {scaleX: this.owner.getScaleX()},
         to: {scaleX: toScaleX},
         duration: durationValue,
         easing: easingValue,
-        step: function step(state) {
-          that.owner.setScaleX(state.scaleX);
-        }
+        step: stepFunction
       });
       this._addTween(identifier, newTweenable, this._runtimeScene.getTimeManager().getTimeFromStart(), durationValue);
       this._setupTweenEnding(identifier, destroyObjectWhenFinished);
     }
-    addObjectScaleYTween(identifier, toScaleY, easingValue, durationValue, destroyObjectWhenFinished) {
+    addObjectScaleYTween(identifier, toScaleY, easingValue, durationValue, destroyObjectWhenFinished, scaleFromCenterOfObject) {
       const that = this;
       if (!this._isActive) {
         return;
@@ -274,14 +296,24 @@ var gdjs;
         this.removeTween(identifier);
       }
       const newTweenable = TweenRuntimeBehavior2.makeNewTweenable(this._runtimeScene);
+      let stepFunction;
+      if (scaleFromCenterOfObject) {
+        stepFunction = function step(state) {
+          const oldY = that.owner.getCenterYInScene();
+          that.owner.setScaleY(state.scaleY);
+          that.owner.setCenterYInScene(oldY);
+        };
+      } else {
+        stepFunction = function step(state) {
+          that.owner.setScaleY(state.scaleY);
+        };
+      }
       newTweenable.setConfig({
         from: {scaleY: this.owner.getScaleY()},
         to: {scaleY: toScaleY},
         duration: durationValue,
         easing: easingValue,
-        step: function step(state) {
-          that.owner.setScaleY(state.scaleY);
-        }
+        step: stepFunction
       });
       this._addTween(identifier, newTweenable, this._runtimeScene.getTimeManager().getTimeFromStart(), durationValue);
       this._setupTweenEnding(identifier, destroyObjectWhenFinished);

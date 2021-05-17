@@ -14,6 +14,10 @@ var gdjs;
       this._layersCameraCoordinates = {};
       this._instancesRemoved = [];
       this._profiler = null;
+      this._debugDrawEnabled = false;
+      this._debugDrawShowHiddenInstances = false;
+      this._debugDrawShowPointsNames = false;
+      this._debugDrawShowCustomPoints = false;
       this._onProfilerStopped = null;
       this._instances = new Hashtable();
       this._instancesCache = new Hashtable();
@@ -28,6 +32,15 @@ var gdjs;
       this._requestedChange = SceneChangeRequest.CONTINUE;
       this._onceTriggers = new gdjs2.OnceTriggers();
       this.onGameResolutionResized();
+    }
+    enableDebugDraw(enableDebugDraw, showHiddenInstances, showPointsNames, showCustomPoints) {
+      if (this._debugDrawEnabled && !enableDebugDraw) {
+        this.getRenderer().clearDebugDraw();
+      }
+      this._debugDrawEnabled = enableDebugDraw;
+      this._debugDrawShowHiddenInstances = showHiddenInstances;
+      this._debugDrawShowPointsNames = showPointsNames;
+      this._debugDrawShowCustomPoints = showCustomPoints;
     }
     onGameResolutionResized() {
       for (const name in this._layers.items) {
@@ -275,9 +288,9 @@ var gdjs;
       if (this._profiler) {
         this._profiler.begin("render");
       }
-      const renderDebugDraw = false;
-      if (renderDebugDraw && this._layersCameraCoordinates) {
-        this.getRenderer().renderDebugDraw(this._allInstancesList, this._layersCameraCoordinates);
+      if (this._debugDrawEnabled && this._layersCameraCoordinates) {
+        this._updateLayersCameraCoordinates(1);
+        this.getRenderer().renderDebugDraw(this._allInstancesList, this._layersCameraCoordinates, this._debugDrawShowHiddenInstances, this._debugDrawShowPointsNames, this._debugDrawShowCustomPoints);
       }
       this._isJustResumed = false;
       this.render();
@@ -292,16 +305,16 @@ var gdjs;
     render() {
       this._renderer.render();
     }
-    _updateLayersCameraCoordinates() {
+    _updateLayersCameraCoordinates(scale) {
       this._layersCameraCoordinates = this._layersCameraCoordinates || {};
       for (const name in this._layers.items) {
         if (this._layers.items.hasOwnProperty(name)) {
           const theLayer = this._layers.items[name];
           this._layersCameraCoordinates[name] = this._layersCameraCoordinates[name] || [0, 0, 0, 0];
-          this._layersCameraCoordinates[name][0] = theLayer.getCameraX() - theLayer.getCameraWidth();
-          this._layersCameraCoordinates[name][1] = theLayer.getCameraY() - theLayer.getCameraHeight();
-          this._layersCameraCoordinates[name][2] = theLayer.getCameraX() + theLayer.getCameraWidth();
-          this._layersCameraCoordinates[name][3] = theLayer.getCameraY() + theLayer.getCameraHeight();
+          this._layersCameraCoordinates[name][0] = theLayer.getCameraX() - theLayer.getCameraWidth() / 2 * scale;
+          this._layersCameraCoordinates[name][1] = theLayer.getCameraY() - theLayer.getCameraHeight() / 2 * scale;
+          this._layersCameraCoordinates[name][2] = theLayer.getCameraX() + theLayer.getCameraWidth() / 2 * scale;
+          this._layersCameraCoordinates[name][3] = theLayer.getCameraY() + theLayer.getCameraHeight() / 2 * scale;
         }
       }
     }
@@ -326,7 +339,7 @@ var gdjs;
         }
         return;
       } else {
-        this._updateLayersCameraCoordinates();
+        this._updateLayersCameraCoordinates(2);
         this._constructListOfAllInstances();
         for (let i = 0, len = this._allInstancesList.length; i < len; ++i) {
           const object = this._allInstancesList[i];

@@ -1,5 +1,6 @@
 var gdjs;
 (function(gdjs2) {
+  const PIXI = GlobalPIXIModule.PIXI;
   class PanelSpriteRuntimeObjectPixiRenderer {
     constructor(runtimeObject, runtimeScene, textureName, tiled) {
       this._wasRendered = false;

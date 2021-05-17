@@ -1,5 +1,6 @@
 var gdjs;
 (function(gdjs2) {
+  const PIXI = GlobalPIXIModule.PIXI;
   class TiledSpriteRuntimeObjectPixiRenderer {
     constructor(runtimeObject, runtimeScene, textureName) {
       this._object = runtimeObject;

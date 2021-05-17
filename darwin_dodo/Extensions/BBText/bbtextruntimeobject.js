@@ -6,7 +6,7 @@ var gdjs;
       this._wrappingWidth = 250;
       this._opacity = parseFloat(objectData.content.opacity);
       this._text = objectData.content.text;
-      this._color = BBTextRuntimeObject.hexToRGBColor(objectData.content.color);
+      this._color = gdjs2.hexToRGBColor(objectData.content.color);
       this._fontFamily = objectData.content.fontFamily;
       this._fontSize = parseFloat(objectData.content.fontSize);
       this._wordWrap = objectData.content.wordWrap;
@@ -14,10 +14,6 @@ var gdjs;
       this._renderer = new gdjs2.BBTextRuntimeObjectRenderer(this, runtimeScene);
       this.hidden = !objectData.content.visible;
       this.onCreated();
-    }
-    static hexToRGBColor(hex) {
-      const hexNumber = parseInt(hex.replace("#", ""), 16);
-      return [hexNumber >> 16 & 255, hexNumber >> 8 & 255, hexNumber & 255];
     }
     getRendererObject() {
       return this._renderer.getRendererObject();
@@ -33,7 +29,7 @@ var gdjs;
         this.setBBText(newObjectData.content.text);
       }
       if (oldObjectData.content.color !== newObjectData.content.color) {
-        this._color = BBTextRuntimeObject.hexToRGBColor(newObjectData.content.color);
+        this._color = gdjs2.hexToRGBColor(newObjectData.content.color);
         this._renderer.updateColor();
       }
       if (oldObjectData.content.fontFamily !== newObjectData.content.fontFamily) {

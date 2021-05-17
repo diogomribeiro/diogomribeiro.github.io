@@ -1,5 +1,6 @@
 var gdjs;
 (function(gdjs2) {
+  const PIXI = GlobalPIXIModule.PIXI;
   const LightRuntimeObjectPixiRenderer2 = class {
     constructor(runtimeObject, runtimeScene) {
       this._texture = null;

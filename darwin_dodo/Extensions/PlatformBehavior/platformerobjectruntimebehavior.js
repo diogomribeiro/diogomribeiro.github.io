@@ -101,7 +101,7 @@ var gdjs;
       this._downKey || (this._downKey = !this._ignoreDefaultControls && inputManager.isKeyPressed(DOWNKEY));
       this._releaseKey || (this._releaseKey = !this._ignoreDefaultControls && inputManager.isKeyPressed(DOWNKEY));
       this._requestedDeltaX += this._updateSpeed(timeDelta);
-      this._state.beforeUpdatingObstacles();
+      this._state.beforeUpdatingObstacles(timeDelta);
       this._onFloor._oldHeight = object.getHeight();
       this._updatePotentialCollidingObjects(Math.max(this._requestedDeltaX, this._maxFallingSpeed * timeDelta));
       this._updateOverlappedJumpThru();
@@ -564,7 +564,7 @@ var gdjs;
       this._floorLastX = this._floorPlatform.owner.getX();
       this._floorLastY = this._floorPlatform.owner.getY();
     }
-    beforeUpdatingObstacles() {
+    beforeUpdatingObstacles(timeDelta) {
       const object = this._behavior.owner;
       if (this._oldHeight !== object.getHeight()) {
         object.setY(this._floorLastY - object.getHeight() + (object.getY() - object.getDrawableY()) - 1);
@@ -642,7 +642,7 @@ var gdjs;
     }
     leave() {
     }
-    beforeUpdatingObstacles() {
+    beforeUpdatingObstacles(timeDelta) {
     }
     checkTransitionBeforeX() {
     }
@@ -688,7 +688,7 @@ var gdjs;
     leave() {
       this._currentJumpSpeed = 0;
     }
-    beforeUpdatingObstacles() {
+    beforeUpdatingObstacles(timeDelta) {
     }
     checkTransitionBeforeX() {
     }
@@ -738,7 +738,7 @@ var gdjs;
     leave() {
       this._grabbedPlatform = null;
     }
-    beforeUpdatingObstacles() {
+    beforeUpdatingObstacles(timeDelta) {
     }
     checkTransitionBeforeX() {
       const behavior = this._behavior;
@@ -778,7 +778,7 @@ var gdjs;
     }
     leave() {
     }
-    beforeUpdatingObstacles() {
+    beforeUpdatingObstacles(timeDelta) {
     }
     checkTransitionBeforeX() {
     }

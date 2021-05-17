@@ -124,6 +124,12 @@ var gdjs;
       common2.trunc = function(x) {
         return x | 0;
       };
+      common2.getXFromAngleAndDistance = function(angle, distance) {
+        return distance * Math.cos(gdjs2.toRad(angle));
+      };
+      common2.getYFromAngleAndDistance = function(angle, distance) {
+        return distance * Math.sin(gdjs2.toRad(angle));
+      };
     })(common = evtTools2.common || (evtTools2.common = {}));
   })(evtTools = gdjs2.evtTools || (gdjs2.evtTools = {}));
 })(gdjs || (gdjs = {}));

@@ -41,7 +41,7 @@ var gdjs;
       return this;
     }
     playing() {
-      return (this._id !== null ? this._howl.playing(this._id) : false) || !this.isLoaded();
+      return (this._id !== null ? this._howl.playing(this._id) : true) || !this.isLoaded();
     }
     paused() {
       return !this.playing();
@@ -118,10 +118,11 @@ var gdjs;
     }
     on(event, handler) {
       if (event === "play") {
-        if (this._id === null)
+        if (this._id === null) {
           this._onPlay.push(handler);
-        else
+        } else {
           this._howl.on(event, handler, this._id);
+        }
       } else if (this._id === null)
         this.once("play", () => this.on(event, handler));
       else
@@ -130,10 +131,13 @@ var gdjs;
     }
     once(event, handler) {
       if (event === "play") {
-        if (this._id === null)
+        if (this._id === null) {
           this._oncePlay.push(handler);
-        else
+        } else if (this.playing()) {
+          handler(this._id);
+        } else {
           this._howl.once(event, handler, this._id);
+        }
       } else if (this._id === null)
         this.once("play", () => this.once(event, handler));
       else

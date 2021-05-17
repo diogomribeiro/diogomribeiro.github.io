@@ -1,5 +1,6 @@
 var gdjs;
 (function(gdjs2) {
+  const PIXI = GlobalPIXIModule.PIXI;
   class ParticleEmitterObjectPixiRenderer {
     constructor(runtimeScene, runtimeObject, objectData) {
       this.started = false;

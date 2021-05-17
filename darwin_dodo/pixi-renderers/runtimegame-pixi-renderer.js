@@ -1,5 +1,12 @@
 var gdjs;
 (function(gdjs2) {
+  const PIXI = GlobalPIXIModule.PIXI;
+  const defaultPreventedKeys = [
+    "ArrowUp",
+    "ArrowDown",
+    "ArrowLeft",
+    "ArrowRight"
+  ];
   class RuntimeGamePixiRenderer {
     constructor(game, forceFullscreen) {
       this._isFullPage = true;
@@ -235,9 +242,15 @@ var gdjs;
         }
       })();
       document2.onkeydown = function(e) {
+        if (defaultPreventedKeys.includes(e.keyCode)) {
+          e.preventDefault();
+        }
         manager.onKeyPressed(e.keyCode, e.location);
       };
       document2.onkeyup = function(e) {
+        if (defaultPreventedKeys.includes(e.keyCode)) {
+          e.preventDefault();
+        }
         manager.onKeyReleased(e.keyCode, e.location);
       };
       renderer.view.onmousemove = function(e) {
