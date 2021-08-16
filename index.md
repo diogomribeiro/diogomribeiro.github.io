@@ -55,10 +55,10 @@ My interests are broad and mixed between the understanding of fundamental biolog
 - **Where:** [University of Lisbon](https://www.ulisboa.pt/en), Portugal
 - **Thesis title:** *Studies on the Influence of A to I RNA Editing on Protein Evolution*, carried out at IGC, Portugal
 
-<img alt="Caparica Portugal" src="images/caparica.png" class="center">
-
 ## Bachelor in Biology (2006-2010)
 - **Where:** [Universidade Lusófona](https://www.ulusofona.pt/), Lisbon, Portugal
+
+<img alt="Caparica Portugal" src="images/caparica.png" class="center">
 
 ***
 # Publications 📜
@@ -83,6 +83,11 @@ My interests are broad and mixed between the understanding of fundamental biolog
 1. Protasio AV, Dongen S, Collins J, Quintais L, **Ribeiro DM**, (...), Berriman m. (2017) [MiR-277/4989 regulate transcriptional landscape during juvenile to adult transition in the parasitic helminth Schistosoma mansoni.](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005559) <ins>PLoS Negl Trop Dis</ins>.  
 1. Hunt VL, Tsai IJ, (...), **Ribeiro DM**, (...), Berriman M. (2016) [The genomic basis of parasitism in the Strongyloides clade of nematodes](https://www.nature.com/articles/ng.3495). <ins>Nature Genetics</ins>.  
 1. Bennett HM, Mok HP, (...), **Ribeiro DM**, (...), Berriman M. (2014) [The genome of the sparganosis tapeworm Spirometra erinaceieuropaei isolated from the biopsy of a migrating brain lesion](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0510-3). <ins>Genome Biology</ins>.  
+
+***
+# Awards & Funding
+- **Marie Skłodowska-Curie Actions Individual fellowship (MSCA-IF-2019)**, 2-year project, 203.149€ https://cordis.europa.eu/project/id/885998
+- **American Society for Human Genetics (ASHG) Epstein Trainee Awards for Excellence in Human Genetics Research** Semifinalist, postdoctoral category, 2021. $750
 
 ***
 # Contact 🌍
