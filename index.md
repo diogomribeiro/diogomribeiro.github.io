@@ -86,8 +86,8 @@ My interests are broad and mixed between the understanding of fundamental biolog
 
 ***
 # Awards & Funding
-- **Marie Skłodowska-Curie Actions Individual fellowship (MSCA-IF-2019)**, 2-year project, 203.149€ https://cordis.europa.eu/project/id/885998
-- **American Society for Human Genetics (ASHG) Epstein Trainee Awards for Excellence in Human Genetics Research** Semifinalist, postdoctoral category, 2021. $750
+- **[Marie Skłodowska-Curie Actions Individual fellowship (MSCA-IF-2019)](https://cordis.europa.eu/project/id/885998)**. Funding: 203.149€ (2 years) 
+- **[American Society for Human Genetics (ASHG) Epstein Trainee Awards for Excellence in Human Genetics Research](https://www.ashg.org/membership/awards/epstein/)** Semifinalist 2021, Postdoctoral category. Prize: $750
 
 ***
 # Contact 🌍
