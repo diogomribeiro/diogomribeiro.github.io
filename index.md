@@ -65,7 +65,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 <p style="font-size:150%;"> <a href="https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra">See publications on Google scholar</a></p>
 
 ## First-author publications
-1. Hofmeister R\*, **Ribeiro DM\***, Rubinacci S\*, Delaneau O. (2023) [Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the UK Biobank.]<ins>Nature Genetics (in press)</ins>.  
+1. Hofmeister R\*, **Ribeiro DM\***, Rubinacci S\*, Delaneau O. (2023) [Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the UK Biobank.](https://www.nature.com/ng/) <ins>Nature Genetics (in press)</ins>.  (\*co-first authors)
 💬 *Phasing of the UK Biobank WGS and WES data for ~150K individuals using SHAPEIT5. I participated in phasing quality-control and identifying compound heterozygous genes, showing that these are depleted for essential genes.*
 1. **Ribeiro DM**, Ziyani C, Delaneau O. (2022) [Shared regulation and functional relevance of local gene co-expression revealed by single cell analysis.](https://www.nature.com/articles/s42003-022-03831-w) <ins>Communications Biology</ins>.  
 💬 *Work using single cell data to measure gene co-expression, comparing bulk and single cell-derived co-expressed gene pairs. Exploiting multimodal single cell data (SHARE-seq data) to link thousands of co-active genes and enhancers, showing that co-expressed genes often share the same enhancers.*
@@ -84,7 +84,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 💬 *Pioneering work exploiting the multimodal single cell SHARE-seq dataset to identify enhancer-enhancer associations based on their co-activity across cells. Enhancers targeting the same gene are often co-active and have binding sites for the same transcription factors.*
 ## Co-authored publications
 1. Rubinacci S, **Ribeiro DM**, Hofmeister RJ, Delaneau O. (2021) [Efficient phasing and imputation of low-coverage sequencing data using large reference panels](https://www.nature.com/articles/s41588-020-00756-0) <ins>Nature Genetics</ins>.
-1. Porcu E, (...), **Ribeiro DM**, Kutalik Z. (2021) [Differentially expressed genes reflect disease-induced rather than disease-causing changes in the transcriptome](https://www.nature.com/articles/s41467-021-25805-y) <ins>Nature Communications</ins>.
+1. Porcu E, (...), **Ribeiro DM**, (...), Kutalik Z. (2021) [Differentially expressed genes reflect disease-induced rather than disease-causing changes in the transcriptome](https://www.nature.com/articles/s41467-021-25805-y) <ins>Nature Communications</ins>.
 1. Zanzoni A, **Ribeiro DM**, Brun C. (2019) [Understanding protein multifunctionality: from short linear motifs to cellular functions.](https://link.springer.com/article/10.1007/s00018-019-03273-4) <ins>Cellular and Molecular Life Sciences</ins>.(book chapter)  
 1. Zanzoni A, Spinelli L, **Ribeiro DM**, Tartaglia GG, Brun C. (2019) [Post-transcriptional regulatory patterns revealed by protein-RNA interactions](https://www.nature.com/articles/s41598-019-40939-2). <ins>Scientific Reports</ins>.  
 1. International Helminth Genomes Consortium. (2018) [Comparative genomics of the major parasitic worms](https://www.nature.com/articles/s41588-018-0262-1). <ins>Nature Genetics</ins>.  
