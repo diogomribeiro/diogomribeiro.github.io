@@ -65,7 +65,7 @@ My interests are broad and mixed between the understanding of fundamental biolog
 <p style="font-size:150%;"> <a href="https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra">See publications on Google scholar</a></p>
 
 ## First-author publications
-1. Hofmeister R\*, **Ribeiro DM\***, Rubinacci S\*, Delaneau O. (2023) [Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the UK Biobank.](https://www.nature.com/ng/) <ins>Nature Genetics (in press)</ins>.  (\*co-first authors)
+1. Hofmeister R\*, **Ribeiro DM\***, Rubinacci S\*, Delaneau O. (2023) [Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the UK Biobank.]([https://www.nature.com/ng/](https://www.nature.com/articles/s41588-023-01415-w)) <ins>Nature Genetics</ins>.  (\*co-first authors)
 💬 *Phasing of the UK Biobank WGS and WES data for ~150K individuals using SHAPEIT5. I participated in phasing quality-control and identifying compound heterozygous genes, showing that these are depleted for essential genes.*
 1. **Ribeiro DM**, Ziyani C, Delaneau O. (2022) [Shared regulation and functional relevance of local gene co-expression revealed by single cell analysis.](https://www.nature.com/articles/s42003-022-03831-w) <ins>Communications Biology</ins>.  
 💬 *Work using single cell data to measure gene co-expression, comparing bulk and single cell-derived co-expressed gene pairs. Exploiting multimodal single cell data (SHARE-seq data) to link thousands of co-active genes and enhancers, showing that co-expressed genes often share the same enhancers.*
