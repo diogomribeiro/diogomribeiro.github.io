@@ -1,13 +1,13 @@
 <p></p>
 
 # About me 👋
-I'm a scientist, currently working as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
-I'm leading a [research project funded by the European Commission](https://cordis.europa.eu/project/id/885998/) centered on understanding why neighbouring genes are often found co-expressed and what are the molecular and disease-state repercussions of this co-expression.
+I'm a scientist, with 5 years experience as a postdoctoral researcher at the [Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/) at the University of Lausanne, Switzerland.
+I have led a [research project funded by the European Commission](https://cordis.europa.eu/project/id/885998/) centered on understanding why neighbouring genes are often found co-expressed and what are the molecular and disease-state repercussions of this co-expression.
 In 2018, I obtained a PhD in Bioinformatics and Genomics from the Aix-Marseille University (France) while working at the [TAGC](https://tagc.univ-amu.fr/) unit, under the supervision of Dr. Christine Brun. Prior to my PhD, I worked as bioinformatician in renowned research institutes ([Sanger Institute](https://www.sanger.ac.uk/), UK & [Instituto Gulbenkian de Ciência](https://gulbenkian.pt/ciencia/), Portugal).  
 
-I have solid experience in functional genomics and analysing big data, as well as technical skills such as programming and creating scientific databases (e.g. [MoonDB](http://moondb.hb.univ-amu.fr/), [LoCOP](https://glcoex.unil.ch/)). As a main author of several peer-reviewed publications, I have good experience in writing scientific articles, as well as research grants. I have worked both independently and as part of a team, including supervising students.  
+I have solid experience in functional genomics and analysing big data (e.g. UK Biobank whole genome sequencing on 500k samples), as well as technical skills such as programming and creating scientific databases (e.g. [MoonDB](http://moondb.hb.univ-amu.fr/), [LoCOP](https://glcoex.unil.ch/)). As a main author of several peer-reviewed publications, I have good experience in writing scientific articles, as well as research grants. I have worked both independently and as part of a team, including supervising students.  
 
-In my free time you will find me immersed in nature, exploring all the possible trails, only stopping for some bird watching. Currently, I'm enjoy hiking in the lovely Swiss Alps. When the weather take me indoors, I enjoy playing guitar and tennis.
+In my free time you will find me immersed in nature, exploring all the possible trails, only stopping for some bird watching. Currently, I'm enjoy hiking in the lovely Swiss Alps. When the weather takes me indoors, I enjoy playing guitar and tennis.
 
 ## Interests 💭
 My interests are broad and mixed between the understanding of fundamental biology and leveraging computational and technological advances to answer biological questions.
@@ -19,13 +19,14 @@ My interests are broad and mixed between the understanding of fundamental biolog
 ***
 
 # Experience & Education 🎓
-## Postdoctoral researcher (2019-present)
+## Postdoctoral researcher (2019-2024)
 - **Where:** [Department of Computational Biology](https://www.unil.ch/dbc/en/home.html), University of Lausanne, Switzerland
 - **Project:** [Marie-Curie Postdoctoral Research Fellow](https://cordis.europa.eu/project/id/885998), leading a project on studying the effect of genetic variants in gene expression, complex traits and diseases
 - **Supervisor:** Olivier Delaneau ([Systems and Population Genetics Group](https://odelaneau.github.io/lap-page/))
 - **Keywords:** human genetics, genetic variations, gene expression, eQTL analysis, GWAS
-- **Master student co-supervision:** Yami Arizmendi: *Molecular features impacting local gene co-expression* (first year)
-- **Teaching:** Python practicals to Bachelor students  
+- **Internship student supervision:** Chaymae Ziyani: *Exploring gene expression regulation by enhancers through single cell analysis* 
+- **Master student co-supervision:** Yami Arizmendi: *Molecular features impacting local gene co-expression* 
+- **Teaching:** Python practicals, Biostatistics with R (Bachelor level) / Gene expression, eQTL and GWAS analysis (Master level) 
 
 <img alt="Lavaux Switzerland" src="images/lavaux.png" class="center">
 
@@ -65,6 +66,8 @@ My interests are broad and mixed between the understanding of fundamental biolog
 <p style="font-size:150%;"> <a href="https://scholar.google.fr/citations?user=RQef1JgAAAAJ&hl=en&oi=sra">See publications on Google scholar</a></p>
 
 ## First-author publications
+1. **Ribeiro DM**, Delaneau O. (2023) [Non-coding rare variant associations with blood traits on 166,740 UK Biobank genomes.](https://www.biorxiv.org/content/10.1101/2023.12.01.569422v1.abstract) <ins>BioRxiv</ins>.
+💬 *Exploiting the 200k whole genome sequences from the UK Biobank identify rare variants associated to >50 blood traits, leveraging genomic information linking genes to regulatory regions.*
 1. Hofmeister R\*, **Ribeiro DM\***, Rubinacci S\*, Delaneau O. (2023) [Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the UK Biobank.]([https://www.nature.com/ng/](https://www.nature.com/articles/s41588-023-01415-w)) <ins>Nature Genetics</ins>.  (\*co-first authors)
 💬 *Phasing of the UK Biobank WGS and WES data for ~150K individuals using SHAPEIT5. I participated in phasing quality-control and identifying compound heterozygous genes, showing that these are depleted for essential genes.*
 1. **Ribeiro DM**, Ziyani C, Delaneau O. (2022) [Shared regulation and functional relevance of local gene co-expression revealed by single cell analysis.](https://www.nature.com/articles/s42003-022-03831-w) <ins>Communications Biology</ins>.  
@@ -83,6 +86,8 @@ My interests are broad and mixed between the understanding of fundamental biolog
 1. Ziyani C, Delaneau O, **Ribeiro DM**. (2023) [Multimodal single cell analysis infers widespread enhancer co-activity in a lymphoblastoid cell line](https://www.nature.com/articles/s42003-023-04954-4) <ins>Communications Biology</ins>.
 💬 *Pioneering work exploiting the multimodal single cell SHARE-seq dataset to identify enhancer-enhancer associations based on their co-activity across cells. Enhancers targeting the same gene are often co-active and have binding sites for the same transcription factors.*
 ## Co-authored publications
+1. Avalos D, Rey G, **Ribeiro DM**, Ramisch A, Dermitzakis ET, Delaneau O. (2023) [Genetic variation in cis-regulatory domains suggests cell type-specific regulatory mechanisms in immunity](https://www.nature.com/articles/s42003-023-04688-3) <ins>Communications Biology</ins>.
+1. Hofmeister RJ, Rubinacci S, **Ribeiro DM**, Buil A, Kutalik Z, Delaneau O. (2022) [Parent-of-Origin inference for biobanks](https://www.nature.com/articles/s41467-022-34383-6) <ins>Nature Communications</ins>.
 1. Rubinacci S, **Ribeiro DM**, Hofmeister RJ, Delaneau O. (2021) [Efficient phasing and imputation of low-coverage sequencing data using large reference panels](https://www.nature.com/articles/s41588-020-00756-0) <ins>Nature Genetics</ins>.
 1. Porcu E, (...), **Ribeiro DM**, (...), Kutalik Z. (2021) [Differentially expressed genes reflect disease-induced rather than disease-causing changes in the transcriptome](https://www.nature.com/articles/s41467-021-25805-y) <ins>Nature Communications</ins>.
 1. Zanzoni A, **Ribeiro DM**, Brun C. (2019) [Understanding protein multifunctionality: from short linear motifs to cellular functions.](https://link.springer.com/article/10.1007/s00018-019-03273-4) <ins>Cellular and Molecular Life Sciences</ins>.(book chapter)  
